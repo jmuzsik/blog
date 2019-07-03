@@ -3,12 +3,10 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
-  disqusShortname: '',
+  title: 'Blog by Jerry Muzsik',
+  subtitle: 'Clarity through poetry.',
+  copyright: '© Do whatever you want with this licence.',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
   menu: [
     {
       label: 'Articles',
@@ -20,20 +18,16 @@ module.exports = {
     },
     {
       label: 'Contact me',
-      path: '/pages/contacts'
+      path: '/pages/contact'
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Jerry Muzsik',
+    photo: '/me.jpg',
+    bio: 'Fuzzy duck',
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      email: 'jerrymuzsik@gmail.com',
+      github: 'https://github.com/jMuzsik'
     }
   }
 };

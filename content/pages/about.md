@@ -1,12 +1,31 @@
 ---
-title: "About me"
-template: "page"
+title: 'About me'
+template: 'page'
 ---
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+I'm Jerry. Born and raised in the Bronx. A three time college dropout. Previously, a seasoned chef in NYC. A current web developer with a focus on UX and performance. And all the other cool new things. React, Node, and the giant ecosystem around it, which I have consumed a healthy portion of over my time in this field.
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-2.jpg)
+I've made some things over time. Like this: [Find an issue](https://findanissue.com/). And a bunch of sites for the company I have been working at: [Meep Labs](https://meeplabs.com/) (including the site). I can do other stuff like integrate products into [Zolando](https://www.zalando.co.uk/women-home/). I like to write technical stuff, and my posts can be found on this site or over at [Free Code Camp](https://www.freecodecamp.org/news/author/jerry/).
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+Some facts perhaps?
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+- Favorite magazine? [Nautilus](http://nautil.us/)
+- Defining characteristic? 95% of the people I meet do not believe me when I say I am American
+- Sports chops? I play a lot of soccer. Surfing is fun. Most sports are.
+- Weekend? Bar and philosophical/heavy conversations
+- Why do people not believe you're American? (Predominantly) inexplicable deep accent
+- Favorite show? Monty Python and the Flying Circus
+
+<div style="text-align: center"><b>And now for something completely different.</b></div>
+
+<div style="width: 100%; display: flex; justify-content: center;">
+
+![men-who-think-they're-chickens men who think they are chickens? funny software developer](/media/men-who-think-they're-chickens.gif)
+
+</div>
+
+<div style="width: 100%; display: flex; justify-content: center;">
+
+![monty python there are many people in the country today who are sane funny software developer](/media/monty-python.gif)
+
+</div>
