@@ -4,9 +4,9 @@ module.exports = {
   site: {
     siteMetadata: {
       url: 'http://localhost',
-      title: 'Test title',
-      subtitle: 'Test subtitle',
-      copyright: 'Test copyright',
+      title: 'Jerry Muzsik',
+      subtitle: 'My blog and other assorted information',
+      copyright: 'No copyright',
       postsPerPage: 4,
       menu: [
         {
@@ -23,7 +23,7 @@ module.exports = {
         }
       ],
       author: {
-        name: 'Test name',
+        name: 'Jerry Muzsik',
         photo: '/test.jpg',
         bio: 'Test bio',
         contacts: {

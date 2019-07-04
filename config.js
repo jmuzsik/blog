@@ -5,7 +5,8 @@ module.exports = {
   pathPrefix: '/',
   title: 'Blog by Jerry Muzsik',
   subtitle: 'Clarity through poetry.',
-  copyright: '© Do whatever you want with this licence.',
+  copyright: '',
+  disqusShortname: 'fuzzduck-org',
   postsPerPage: 4,
   menu: [
     {
@@ -15,16 +16,12 @@ module.exports = {
     {
       label: 'About me',
       path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contact'
     }
   ],
   author: {
     name: 'Jerry Muzsik',
-    photo: '/me.jpg',
-    bio: 'Fuzzy duck',
+    photo: '/jerry-muzsik.jpg',
+    bio: 'Web Developer, Aspiring Educator',
     contacts: {
       email: 'jerrymuzsik@gmail.com',
       github: 'https://github.com/jMuzsik'

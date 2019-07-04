@@ -1,5 +1,6 @@
 // @flow
 import React from 'react';
+
 import Sidebar from '../components/Sidebar';
 import Layout from '../components/Layout';
 import Page from '../components/Page';
@@ -11,8 +12,13 @@ const NotFoundTemplate = () => {
   return (
     <Layout title={`Not Found - ${title}`} description={subtitle}>
       <Sidebar />
-      <Page title="NOT FOUND">
-        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <Page title="WHAT YOU DOING HERE?">
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <img
+            src="/media/404-cat-error.gif"
+            alt="404 cat error cat on skateboarding doing it's thing"
+          />
+        </div>
       </Page>
     </Layout>
   );

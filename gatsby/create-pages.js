@@ -30,9 +30,7 @@ const createPages = async ({ graphql, actions }) => {
   // Posts and pages from markdown
   const result = await graphql(`
     {
-      allMarkdownRemark(
-        filter: { frontmatter: { draft: { ne: true } } }
-      ) {
+      allMarkdownRemark(filter: { frontmatter: { draft: { ne: true } } }) {
         edges {
           node {
             frontmatter {
@@ -49,7 +47,7 @@ const createPages = async ({ graphql, actions }) => {
 
   const { edges } = result.data.allMarkdownRemark;
 
-  _.each(edges, (edge) => {
+  _.each(edges, edge => {
     if (_.get(edge, 'node.frontmatter.template') === 'page') {
       createPage({
         path: edge.node.fields.slug,
@@ -70,6 +68,5 @@ const createPages = async ({ graphql, actions }) => {
   await createCategoriesPages(graphql, actions);
   await createPostsPages(graphql, actions);
 };
-
 
 module.exports = createPages;
