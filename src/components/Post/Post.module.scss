@@ -34,9 +34,15 @@
     &:focus {
       color: $color-primary;
     }
-
   }
-
+  & blockquote {
+    text-align: left;
+    padding-left: 50px;
+  }
+  & ol {
+    position: relative;
+    left: 25px;
+  }
 }
 
 @include breakpoint-md {
@@ -54,9 +60,7 @@
       max-width: auto;
       margin: 0;
       top: 30px;
-      left: 30px
+      left: 30px;
     }
-
   }
-
 }

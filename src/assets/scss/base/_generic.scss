@@ -16,7 +16,22 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(34, 139, 34, 0.0439);
 }
+
+// body::after {
+//   content: "";
+//   opacity: 0.2;
+//   top: 0;
+//   left: 0;
+//   bottom: 0;
+//   right: 0;
+//   position: absolute;
+//   z-index: -1;
+//   background-image: url('/old-growth-forest.jpeg');
+//   background-repeat: repeat;
+//   background-size: cover;
+// }
 
 h1,
 h2,
@@ -39,35 +54,35 @@ h2 {
   font-size: $typographic-base-font-size * 1.6875;
   @include line-height(1.5);
   @include margin-top(2);
-  @include margin-bottom(.5);
+  @include margin-bottom(0.5);
 }
 
 h3 {
   font-size: $typographic-base-font-size * 1.375;
   @include line-height(1);
   @include margin-top(2);
-  @include margin-bottom(.5);
+  @include margin-bottom(0.5);
 }
 
 h4 {
   font-size: $typographic-base-font-size * 1.2;
   @include line-height(1);
   @include margin-top(1.5);
-  @include margin-bottom(.5);
+  @include margin-bottom(0.5);
 }
 
 h5 {
   font-size: $typographic-base-font-size;
   @include line-height(1);
   @include margin-top(2.5);
-  @include margin-bottom(.5);
+  @include margin-bottom(0.5);
 }
 
 h6 {
   font-size: $typographic-base-font-size;
   @include line-height(1);
   @include margin-top(2.5);
-  @include margin-bottom(.5);
+  @include margin-bottom(0.5);
 }
 
 img {
@@ -78,17 +93,26 @@ img {
 }
 
 hr {
-  margin-top: 52px;
-  margin-bottom: 52px;
-  border: 0;
-  color: $color-base;
-  display: block;
-  height: 26px;
-  margin-right: auto;
-  margin-left: auto;
-  background-size: 100% 26px;
-  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, $color-base 11px, $color-base 15px, transparent 15px, transparent 26px);
+  margin-top: 41px;
+  margin-bottom: 12px;
+  border-color: $color-base;
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.25px 0 0 0;
+  border-radius: 20px;
   width: 100px;
+  &:before {
+    display: block;
+    content: '';
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1.25px 0;
+    border-radius: 20px;
+  }
 }
 
 a {
@@ -100,7 +124,6 @@ a {
   &:active {
     color: $typographic-link-s-font-color;
   }
-
 }
 
 b,
@@ -109,14 +132,12 @@ strong {
 }
 
 ul {
-  list-style: square;
   @include margin-bottom(1);
 
   & li {
     padding: 0 5px;
     margin-bottom: 10px;
   }
-
 }
 
 p {
@@ -137,8 +158,8 @@ figure {
 }
 
 figcaption {
-  @include line-height(.75);
-  @include margin-top(.25);
+  @include line-height(0.75);
+  @include margin-top(0.25);
   color: $color-base;
   font-size: $typographic-small-font-size;
   font-style: italic;
@@ -165,5 +186,9 @@ figcaption {
   .float-left {
     float: left;
   }
+}
 
+:not(pre) > code[class*='language-'],
+pre[class*='language-'] {
+  background-color: rgba(34, 139, 34, 0.1);
 }

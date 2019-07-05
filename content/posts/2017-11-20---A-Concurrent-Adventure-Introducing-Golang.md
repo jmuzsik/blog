@@ -12,7 +12,7 @@ tags:
 description: 'A fun introduction to Go for Javascript Developers or people of a similar vein, as in predominantly dynamically typed language experience. There are many links within, as they were links that were integral in my understanding the language.'
 ---
 
-A fun introduction to Go for Javascript Developers or people of a similar vein, as in predominantly dynamically typed language experience. There are many links within, as they were links that were integral in my understanding the language.
+<span style="initial-letter: 2">A</span> fun introduction to Go for Javascript Developers or people of a similar vein, as in predominantly dynamically typed language experience. There are many links within, as they were links that were integral in my understanding the language.
 
 ![this is a silly gopher](https://cdn-images-1.medium.com/max/1600/1*Uc-Ey0te8v80aV15zR_Jhg.png)
 
