@@ -118,7 +118,7 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-netlify',
+    // 'gatsby-plugin-netlify',
     // {
     //   resolve: 'gatsby-plugin-netlify-cms',
     //   options: {
