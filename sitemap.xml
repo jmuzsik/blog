@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://lumen.netlify.com/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/posts/find-an-issue/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/posts/concurrent-adventure-introducing-go/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/posts/understanding-program-first/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/posts/deploy-create-react-app/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/posts/a-space-themed-intro-to-golang/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/posts/space-adventure-introducing-python/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/tag/advanced-topics</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/tag/backend</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/tag/backend/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/tag/c-languages</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/tag/computer-science</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/tag/create-react-app</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/tag/data-visualisation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/tag/frontend</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/tag/github</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/tag/golang</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/tag/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/tag/not-javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/tag/not-javascript/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/tag/open-source</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/tag/python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/tag/recharts</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/tag/wikipedia</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/category/computer-science</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/category/golang</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/category/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/category/projects</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/category/python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>
