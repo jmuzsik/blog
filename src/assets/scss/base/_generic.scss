@@ -1,6 +1,9 @@
 /** 
  * Generic
  */
+* {
+  z-index: 1;
+}
 html {
   font-size: $typographic-root-font-size;
 }
@@ -17,21 +20,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgba(34, 139, 34, 0.0439);
+  overflow-x: hidden;
 }
-
-// body::after {
-//   content: "";
-//   opacity: 0.2;
-//   top: 0;
-//   left: 0;
-//   bottom: 0;
-//   right: 0;
-//   position: absolute;
-//   z-index: -1;
-//   background-image: url('/old-growth-forest.jpeg');
-//   background-repeat: repeat;
-//   background-size: cover;
-// }
 
 h1,
 h2,
@@ -40,6 +30,7 @@ h4,
 h5,
 h6 {
   font-family: $typographic-font-family;
+  font-family: 'Roboto Slab';
   font-weight: 600;
 }
 
@@ -115,9 +106,13 @@ hr {
   }
 }
 
+button {
+  z-index: 100;
+}
 a {
   color: $typographic-link-p-font-color;
   text-decoration: none;
+  z-index: 100;
 
   &:hover,
   &:focus,
@@ -143,6 +138,7 @@ ul {
 p {
   @include line-height(1);
   @include margin-bottom(1);
+  font-family: 'Exo 2';
 }
 
 blockquote {
@@ -191,4 +187,12 @@ figcaption {
 :not(pre) > code[class*='language-'],
 pre[class*='language-'] {
   background-color: rgba(34, 139, 34, 0.1);
+}
+
+.gatsby-highlight .token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  background: rgba(0, 0, 0, 0);
 }

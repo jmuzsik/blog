@@ -1,9 +1,9 @@
 ---
-title: Understanding Programming, first attempt to explain
+title: Understanding Programming, first article
 date: '2019-06-25'
 template: 'post'
 draft: false
-slug: '/posts/understanding-program-first-attempt-to-explain/'
+slug: '/posts/understanding-program-first/'
 category: 'Computer Science'
 tags:
   - 'Computer Science'

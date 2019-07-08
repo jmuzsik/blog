@@ -5,13 +5,16 @@ import kebabCase from 'lodash/kebabCase';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Page from '../components/Page';
+import Waves from '../components/Waves/Waves';
 import { useSiteMetadata, useTagsList } from '../hooks';
 
 const TagsListTemplate = () => {
   const { title, subtitle } = useSiteMetadata();
   const tags = useTagsList();
-
+  console.log('tags list template');
   return (
+    <React.Fragment>
+
     <Layout title={`Tags - ${title}`} description={subtitle}>
       <Sidebar />
       <Page title="Tags">
@@ -26,6 +29,8 @@ const TagsListTemplate = () => {
         </ul>
       </Page>
     </Layout>
+    <Waves />
+    </React.Fragment>
   );
 };
 
