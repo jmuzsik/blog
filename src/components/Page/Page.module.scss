@@ -5,7 +5,9 @@
   @include margin-bottom(2);
 
   &__inner {
-    padding: 25px 20px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   &__title {
@@ -30,7 +32,8 @@
     lost-column: 7/12;
 
     &__inner {
-      padding: 30px 20px;
+      padding-left: 30px;
+      padding-right: 30px;
     }
   }
 }
@@ -40,7 +43,9 @@
     lost-column: 2/3;
 
     &__inner {
-      padding: 40px 35px;
+      padding-top: 2.5rem;
+      padding-left: 40px;
+      padding-right: 40px;
     }
   }
 }

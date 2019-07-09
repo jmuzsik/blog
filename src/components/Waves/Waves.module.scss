@@ -58,32 +58,27 @@
   }
 
   &__x1 {
-    animation: animateCloud 70s linear infinite;
-
+    animation: animateCloud 130s linear infinite;
     transform: scale(0.65);
   }
 
   &__x2 {
-    animation: animateCloud 40s linear infinite;
-
+    animation: animateCloud 100s linear infinite;
     transform: scale(0.3);
   }
 
   &__x3 {
-    animation: animateCloud 60s linear infinite;
-
+    animation: animateCloud 1200s linear infinite;
     transform: scale(0.5);
   }
 
   &__x4 {
-    animation: animateCloud 36s linear infinite;
-
+    animation: animateCloud 96s linear infinite;
     transform: scale(0.4);
   }
 
   &__x5 {
-    animation: animateCloud 50s linear infinite;
-
+    animation: animateCloud 110s linear infinite;
     transform: scale(0.55);
   }
 
@@ -124,7 +119,7 @@
 
 @keyframes animateCloud {
   0% {
-    margin-left: -1000px;
+    margin-left: -800px;
   }
   100% {
     margin-left: 100%;

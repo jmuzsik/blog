@@ -30,7 +30,6 @@ h4,
 h5,
 h6 {
   font-family: $typographic-font-family;
-  font-family: 'Roboto Slab';
   font-weight: 600;
 }
 
@@ -138,7 +137,6 @@ ul {
 p {
   @include line-height(1);
   @include margin-bottom(1);
-  font-family: 'Exo 2';
 }
 
 blockquote {

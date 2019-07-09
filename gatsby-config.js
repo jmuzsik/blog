@@ -118,20 +118,11 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    // 'gatsby-plugin-netlify',
-    // {
-    //   resolve: 'gatsby-plugin-netlify-cms',
-    //   options: {
-    //     modulePath: `${__dirname}/src/cms/index.js`
-    //   }
-    // },
+    'gatsby-plugin-netlify',
     {
-      resolve: 'gatsby-plugin-google-gtag',
+      resolve: 'gatsby-plugin-netlify-cms',
       options: {
-        trackingIds: [siteConfig.googleAnalyticsId],
-        pluginConfig: {
-          head: true
-        }
+        modulePath: `${__dirname}/src/cms/index.js`
       }
     },
     {
@@ -190,21 +181,6 @@ module.exports = {
         }
       }
     },
-    'gatsby-plugin-flow',
-    {
-      resolve: 'gatsby-plugin-prefetch-google-fonts',
-      options: {
-        fonts: [
-          {
-            family: 'Exo 2',
-            variants: ['400']
-          },
-          {
-            family: 'Roboto Slab',
-            variants: ['400']
-          }
-        ]
-      }
-    }
+    'gatsby-plugin-flow'
   ]
 };
