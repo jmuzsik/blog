@@ -14,7 +14,7 @@ const Layout = ({ children, title, description }: Props) => (
   <div className={styles.layout}>
     <Helmet>
       <html lang="en" />
-      <title>{title}</title>
+      <title lang="en">{title}</title>
       <meta name="description" content={description} />
       <meta property="og:site_name" content={title} />
       <meta name="twitter:card" content="summary" />
