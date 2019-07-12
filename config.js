@@ -29,7 +29,7 @@ module.exports = {
   author: {
     name: 'Jerry Muzsik',
     photo: '/jerry-muzsik.jpg',
-    bio: 'Writing for the thoughtful.',
+    bio: 'Writing for the thoughtful. Almost daily updates.',
     contacts: {
       email: 'jerrymuzsik@gmail.com',
       github: 'https://github.com/jMuzsik'
