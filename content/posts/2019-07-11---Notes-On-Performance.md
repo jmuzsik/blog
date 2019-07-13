@@ -13,7 +13,7 @@ tags:
   - 'Dev Tools'
   - 'CSSOM'
   - 'DOM'
-description: 'Focus is on performance. Notes are from Google Web Fundamentals articles. RAIL Model, DOM, CSSOM, Navigation Timing API,'
+description: 'Focus is on performance. Notes are from Google Web Fundamentals articles. RAIL Model, DOM, CSSOM, Navigation Timing API, etc.'
 ---
 
 ## TL;DR
@@ -29,7 +29,6 @@ description: 'Focus is on performance. Notes are from Google Web Fundamentals ar
 ## RAIL Model
 
 Reading article by Google about this. This is a great example of why page speed is so damn important.
-
 
 ### User Perception Of Performance Delays
 
