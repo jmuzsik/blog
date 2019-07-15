@@ -215,7 +215,7 @@ Start somewhere like this: https://en.wikipedia.org/wiki/Neural_circuit
 
 Brain picture:
 
-![varying parts of the brain and it's functions](http://site.motifolio.com/images/The-brain-map-1031256.png)
+![varying parts of the brain and it's functions](https://njhwllc.com/wp-content/uploads/2018/12/Brain-Mapping.png)
 
 Maybe this can be understood in a few years:
 
