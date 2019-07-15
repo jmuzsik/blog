@@ -10,7 +10,9 @@ tags:
   - 'Performance'
   - 'Moon'
   - 'Apache'
-description: ''
+  - 'Javascript'
+  - 'CSS'
+description: 'More stuff about performance. Apache stuff. Lab data and field data. Stuff about the formation of the moon.'
 ---
 
 ## TL;DR
@@ -21,9 +23,7 @@ description: ''
 4. Lab data is in controlled environments. Field data is related to real user experience catalogued.
 5. There are "tools for increasing revenue" below
 6. Use `performance.getEntriesByType('navigation')` and `performance.getEntriesByType('resource')` for field data.
-
-- Both API's return a bunch of useful metrics to figure out user experience when loading your site.
-
+    - Both API's return a bunch of useful metrics to figure out user experience when loading your site.
 7. The moon was formed from a synestia. Collision with something powerful -> earth is a cloud of fire -> Earth cools and begins to coalesce eventually leading to the earth -> there are areas outside of the possibility to coalesce that contains matter that was previously the earth which begin to coalesce eventually forming the moon
 
 ## Get Started of Loading Performance Section
