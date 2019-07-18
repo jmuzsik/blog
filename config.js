@@ -18,6 +18,10 @@ module.exports = {
       path: '/pages/consume'
     },
     {
+      label: 'Code to keep track of',
+      path: '/pages/code'
+    },
+    {
       label: 'About me',
       path: '/pages/about'
     },
