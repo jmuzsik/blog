@@ -194,3 +194,8 @@ pre[class*='language-'] {
 .style .token.string {
   background: rgba(0, 0, 0, 0);
 }
+
+.tags ul {
+  height: 600px;
+  overflow-y: scroll;
+}
