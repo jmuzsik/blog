@@ -28,7 +28,7 @@ And Go is quickly becoming the leader of concurrent programming. This is because
 
 ![a chart showing that go has a high degree of beautiful, straight code and efficient concurrency compared to other programming languages](https://cdn-images-1.medium.com/max/1600/1*Z5o7RHMaYZc_bqMFkOvhIA.png)
 
-<div style="text-align: center"><small>Check <a href="http://www.cuelogic.com/blog/go-programming-and-why-should-you-learn-go/">this link</a> out for further explanation</small></div>
+<div style="text-align: center"><small>Check <a href="https://www.cuelogic.com/blog/go-programming-and-why-should-you-learn-go/">this link</a> out for further explanation</small></div>
 
 Let’s learn by imagining. You are in a parallel universe. The setting of life is a maze. You can create copies of yourself and send these other selves in different directions. The meaning of life is finding a way through this maze.
 

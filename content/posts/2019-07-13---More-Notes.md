@@ -100,7 +100,7 @@ This model relates to the idea that cognitive dissonance is fundamentally relate
 
 > Therefore, the brain is an inference machine which attempts to actively predict and explain its sensations. Crucial to this inference is the minimization of prediction error.
 
-#### [Prediction Error](http://philosophyofbrains.com/2014/06/22/is-prediction-error-minimization-all-there-is-to-the-mind.aspx)
+#### [Prediction Error](https://philosophyofbrains.com/2014/06/22/is-prediction-error-minimization-all-there-is-to-the-mind.aspx)
 
 I want to go more in depth about this article that is linked, it is also related to what was written above.
 
@@ -168,7 +168,7 @@ The biomechanics of cognitive dissonance: MRI evidence indicates that the greate
 
 ##### How Choice Reveals and Shapes Expected Hedonic Outcome (2009)
 
-> ...indicates that after making a choice, neural activity in the striatum changes to reflect the person's new evaluation of the choice-object; neural activity increased if the object was chosen, neural activity decreased if the object was rejected. [Citation](https://web.archive.org/web/20110617053852/http://www.fil.ion.ucl.ac.uk/~tsharot/Sharot_JofN_2009.pdf)
+> ...indicates that after making a choice, neural activity in the striatum changes to reflect the person's new evaluation of the choice-object; neural activity increased if the object was chosen, neural activity decreased if the object was rejected. [Citation](https://web.archive.org/web/20110617053852/https://www.fil.ion.ucl.ac.uk/~tsharot/Sharot_JofN_2009.pdf)
 
 - So this is to say that if you choose something, the mind is more active than if you reject something. Perhaps this has to do with the fact that a choice relates to more actions in the future in relation to this thing, so your brain has to prepare itself for future knowledge in relation to this choice.
 

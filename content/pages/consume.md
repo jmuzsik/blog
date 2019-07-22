@@ -10,6 +10,6 @@ template: 'page'
 5. [Making WebAssembly even faster: Firefox’s new streaming and tiering compiler](https://hacks.mozilla.org/2018/01/making-webassembly-even-faster-firefoxs-new-streaming-and-tiering-compiler/)
 6. [WebAssembly’s post-MVP future: A cartoon skill tree](https://hacks.mozilla.org/2018/10/webassemblys-post-mvp-future/)
 7. [Basically everything here](https://hacks.mozilla.org/category/code-cartoons/)
-8. [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
+8. [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](https://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
 9. [React reconciliation](https://reactjs.org/docs/reconciliation.html)
 10. [Some stuff in this blog about technical writing looks fitting](https://kayce.basqu.es/blog/)

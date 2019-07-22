@@ -9,7 +9,7 @@ I've made some things over time. Like this: [Find an issue](https://findanissue.
 
 Some facts perhaps?
 
-- Favorite magazines? [Nautilus](http://nautil.us/) and [MIT Technology Review](https://www.technologyreview.com/)
+- Favorite magazines? [Nautilus](https://nautil.us/) and [MIT Technology Review](https://www.technologyreview.com/)
 - A defining characteristic? 95% of the people I meet do not believe me when I say I am American
 - Sports? I play a lot of football (the one with the ball on the feet). Surfing is fun
 - Weekend? Words, experiences, and [Go](https://senseis.xmp.net/?WhatIsGo)

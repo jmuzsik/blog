@@ -60,7 +60,7 @@ Why?
 
 > provides an objective integrity assessment of some architectural characteristics, which may encompass existing verification criteria, such as unit testing, metrics, monitors, and so on.
 
-- [Building evolutionary architectures](http://www.thoughtworks.com/books/building-evolutionary-architectures)
+- [Building evolutionary architectures](https://www.thoughtworks.com/books/building-evolutionary-architectures)
 
 #### Autonomous Bubble Pattern
 
@@ -68,7 +68,7 @@ Why?
 
 - This is focused on integrating modern architecture into companies with a lot of legacy code. You create separate "bubbles" where both bubbles have full control.
 
-#### [Chaos Engineering](http://principlesofchaos.org/)
+#### [Chaos Engineering](https://principlesofchaos.org/)
 
 Predominantly useful for large scale systems which you know will occasionally be subject to turbulent conditions. So, I imagine at pre-scheduled times or low-use hours you can test these conditions to see how your system reacts.
 
@@ -121,7 +121,7 @@ Literally running tests on container scripts.
 
 #### Google Cloud Platform over AWS?
 
-#### [KeyCloak](http://www.keycloak.org/)
+#### [KeyCloak](https://www.keycloak.org/)
 
 Used to to secure the services or APIs through authentication and authorization features
 
@@ -137,7 +137,7 @@ Commerce can completely be done on this platform. Over 70% of Chinese people uti
 
 #### Clara Rules
 
-[What is this?](http://www.clara-rules.org/)
+[What is this?](https://www.clara-rules.org/)
 
 #### Perhaps use Echarts in the future
 
@@ -145,9 +145,9 @@ Why? It is entirely based on the Canvas API so performance is great.
 
 #### If you ever need to create something for the bare metal
 
-[Gobot](http://gobot.io/) is written in Go and supports many platforms.
+[Gobot](https://gobot.io/) is written in Go and supports many platforms.
 
-#### [Single-SPA](http://github.com/CanopyTax/single-spa)
+#### [Single-SPA](https://github.com/CanopyTax/single-spa)
 
 > a JavaScript metaframework that allows us to build micro frontends using different frameworks that can coexist in a single application
 

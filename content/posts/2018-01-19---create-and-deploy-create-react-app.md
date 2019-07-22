@@ -103,7 +103,7 @@ I’ll show you how to create this chart:
 
 <div style="text-align: center;"><small>I did mention expressing something intense about life</small></div>
 
-Link to data if curious: [Data Set](http://apps.who.int/gho/data/view.main.vEQKNHIVTOTv)
+Link to data if curious: [Data Set](https://apps.who.int/gho/data/view.main.vEQKNHIVTOTv)
 
 With data originally structured as so:
 
