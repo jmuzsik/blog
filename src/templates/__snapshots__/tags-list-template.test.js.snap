@@ -224,7 +224,7 @@ exports[`TagsListTemplate renders correctly 1`] = `
         <ul>
           <li>
             <a
-              href="/tag/test-0/"
+              href="/concept/test-0/"
             >
               test_0
                (
@@ -234,7 +234,7 @@ exports[`TagsListTemplate renders correctly 1`] = `
           </li>
           <li>
             <a
-              href="/tag/test-1/"
+              href="/concept/test-1/"
             >
               test_1
                (

@@ -7,40 +7,40 @@ module.exports = {
   subtitle: 'Clarity through poetry.',
   copyright: '',
   disqusShortname: 'fuzzduck-org',
-  postsPerPage: 2,
+  postsPerPage: 4,
   menu: [
     {
-      label: 'Articles',
+      label: 'Essays and Articles',
       path: '/'
     },
     {
-      label: 'Stuff to consume later',
-      path: '/pages/consume'
+      label: 'Notes and Drafts',
+      path: '/drafts'
     },
     {
-      label: 'Code to keep track of',
-      path: '/pages/code'
+      label: 'Stuff',
+      path: '/pages/stuff'
     },
     {
-      label: 'About me',
+      label: 'This guy',
       path: '/pages/about'
     },
     {
-      label: 'Tags',
-      path: '/tags'
+      label: 'Sets',
+      path: '/sets'
     },
     {
-      label: 'Categories',
-      path: '/categories'
-    }
+      label: 'Concepts',
+      path: '/concepts'
+    },
   ],
   author: {
     name: 'Jerry Muzsik',
     photo: '/jerry-muzsik.jpg',
-    bio: 'Writing for the thoughtful. Almost daily updates.',
+    bio: '🤔✍️🤔',
     contacts: {
       email: 'jerrymuzsik@gmail.com',
-      github: 'https://github.com/jMuzsik'
+      github: 'jMuzsik'
     }
   }
 };

@@ -12,10 +12,10 @@ const TagsListTemplate = () => {
   const tags = useTagsList();
 
   return (
-    <React.Fragment className="tags">
+    <React.Fragment>
       <Layout title={`Tags - ${title}`} description={subtitle}>
         <Sidebar />
-        <Page title="Tags">
+        <Page title="Concepts">
           <Tags tags={tags} />
         </Page>
       </Layout>

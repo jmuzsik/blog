@@ -8,7 +8,7 @@ export default function Tags({ tags }) {
     <ul className={styles['tags']}>
       {tags.map(tag => (
         <li key={tag.fieldValue}>
-          <Link to={`/tag/${kebabCase(tag.fieldValue)}/`}>
+          <Link to={`/concept/${kebabCase(tag.fieldValue)}/`}>
             {tag.fieldValue} ({tag.totalCount})
           </Link>
         </li>

@@ -3,4 +3,7 @@
 
 .layout {
   lost-column: 1;
+  &__page {
+    height: 10000px;;
+  }
 }

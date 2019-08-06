@@ -4,19 +4,14 @@
 .page {
   @include margin-bottom(2);
 
-  &__inner {
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-
   &__title {
     font-size: $typographic-base-font-size * 2.5;
     font-weight: 600;
     @include line-height(2);
     @include margin-top(0);
     @include margin-bottom(1.45);
-    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   &__body {
@@ -30,11 +25,10 @@
 @include breakpoint-sm {
   .page {
     lost-column: 7/12;
-
-    &__inner {
-      padding-left: 30px;
-      padding-right: 30px;
-    }
+  }
+  &__title {
+    margin-right: 25px;
+    margin-left: 25px;
   }
 }
 
@@ -44,8 +38,6 @@
 
     &__inner {
       padding-top: 2.5rem;
-      padding-left: 40px;
-      padding-right: 40px;
     }
   }
 }

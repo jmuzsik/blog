@@ -119,6 +119,9 @@ a {
     color: $typographic-link-s-font-color;
   }
 }
+.feed a {
+  color: inherit;
+}
 
 b,
 strong {

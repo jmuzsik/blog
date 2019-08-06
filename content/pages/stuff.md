@@ -1,7 +1,9 @@
 ---
-title: 'Some stuff to write about eventually'
+title: 'Some stuff'
 template: 'page'
 ---
+
+## Stuff to Read
 
 1. [Shopify and the Power of Platforms](https://stratechery.com/2019/shopify-and-the-power-of-platforms/)
 2. [Testifying at the Senate about A.I.-Selected Content on the Internet](https://blog.stephenwolfram.com/2019/06/testifying-at-the-senate-about-a-i-selected-content-on-the-internet/)
@@ -13,3 +15,9 @@ template: 'page'
 8. [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](https://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
 9. [React reconciliation](https://reactjs.org/docs/reconciliation.html)
 10. [Some stuff in this blog about technical writing looks fitting](https://kayce.basqu.es/blog/)
+
+## Code to keep track of
+
+[Art gallery example](https://codepen.io/rbmel_77/pen/zaJvoy)
+
+[Solar System](https://codepen.io/juliangarnier/pen/idhuG)

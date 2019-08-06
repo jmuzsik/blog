@@ -9,7 +9,7 @@ module.exports = async (graphql, actions) => {
   const result = await graphql(`
     {
       allMarkdownRemark(
-        filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+        filter: { frontmatter: { template: { eq: "post" }, draft: { ne: false } } }
       ) { totalCount }
     }
   `);
@@ -21,8 +21,8 @@ module.exports = async (graphql, actions) => {
   console.log('wtf do i not see athing here???')
   for (let i = 0; i < numPages; i += 1) {
     createPage({
-      path: i === 0 ? '/' : `/page/${i}`,
-      component: path.resolve('./src/templates/index-template.js'),
+      path: i === 0 ? '/drafts' : `/page/${i}`,
+      component: path.resolve('./src/templates/draft-template.js'),
       context: {
         currentPage: i,
         postsLimit: postsPerPage,

@@ -16,11 +16,11 @@ const CategoriesListTemplate = () => {
     <React.Fragment>
       <Layout title={`Categories - ${title}`} description={subtitle}>
         <Sidebar />
-        <Page title="Categories">
+        <Page title="Sets">
           <ul>
             {categories.map(category => (
               <li key={category.fieldValue}>
-                <Link to={`/category/${kebabCase(category.fieldValue)}/`}>
+                <Link to={`/set/${kebabCase(category.fieldValue)}/`}>
                   {category.fieldValue} ({category.totalCount})
                 </Link>
               </li>

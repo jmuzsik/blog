@@ -1,26 +1,17 @@
 ---
-title: 'About me'
+title: 'This guy'
 template: 'page'
 ---
 
-I'm Jerry. Born and raised in the Bronx. Before joining the tech world, I was a chef in NYC. Currently, I am a Web Developer with a focus on UX and performance. And all the other cool new things. React, Node, and the giant ecosystem around it, which I have consumed a healthy portion of over my time in this field.
-
-I've made some things over time. Like this: [Find an issue](https://findanissue.com/). And a bunch of sites for the company I have been working at: [Meep Labs](https://meeplabs.com/) (including their site). I can do other stuff like integrate products into [Zolando](https://www.zalando.co.uk/women-home/) or replicate the design of almost any site. I like to write technical articles, and my posts can be found on this site or over at [Free Code Camp](https://www.freecodecamp.org/news/author/jerry/). Well, eventually they will be. Meanwhile, I am writing almost daily stuff on here.
+I'm Jerry. Born and raised in the Bronx. Before joining the tech world, I was a chef in NYC. Currently, I am (mainly) a web developer. I'm in school currently, pursuing a degree in Computational Physics. Contemplating a more academic life. Contemplating quite a few things. This self, can it ever be completely understood? But I do love to create things with boolean switches. And I love science that touches the metaphysical. I believe that I am looking for an intersection of these two things. With some cooking mixed in.
 
 Some facts perhaps?
 
-- Favorite magazines? [Nautilus](https://nautil.us/) and [MIT Technology Review](https://www.technologyreview.com/)
+- If I have to pick a gender classification, it's guy.
+- I read a lot of magazines...[Nautilus](https://nautil.us/), [MIT Technology Review](https://www.technologyreview.com/), and whatever other interesting things I get my hands on. I read a lot in general.
 - A defining characteristic? 95% of the people I meet do not believe me when I say I am American
 - Sports? I play a lot of football (the one with the ball on the feet). Surfing is fun
 - Weekend? Words, experiences, and [Go](https://senseis.xmp.net/?WhatIsGo)
 - Why do people not believe you're American? (Predominantly) an inexplicable deep accent
-- Why do you love programming? The incredible amount of possibilities
-- Favorite show atm? Monty Python and the Flying Circus
-
-<div style="text-align: center"><b>And now for something completely different:</b></div>
-
-<div style="width: 100%; display: flex; justify-content: center;">
-
-![men-who-think-they're-chickens men who think they are chickens? funny software developer](/media/men-who-think-they're-chickens.gif)
-
-</div>
+- I don't watch much stuff nowadays but if I did I'd be utilising my [Mubi](https://mubi.com/showing) subscription.
+- I tend to go on long walks.

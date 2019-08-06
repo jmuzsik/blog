@@ -15,7 +15,7 @@ type Props = {
   pageContext: PageContext
 };
 
-const IndexTemplate = ({ data, pageContext }: Props) => {
+const DraftTemplate = ({ data, pageContext }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
 
   const {
@@ -30,12 +30,13 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
 
   const pageTitle =
     currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
-
+  console.log('do i get here?')
+  console.log(data)
   return (
     <React.Fragment>
       <Layout title={pageTitle} description={siteSubtitle}>
         <Sidebar isIndex />
-        <Page title="Essays and Articles">
+        <Page title="Notes and Drafts">
           <Feed edges={edges} />
           <Pagination
             prevPagePath={prevPagePath}
@@ -51,11 +52,11 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
 };
 
 export const query = graphql`
-  query IndexTemplate($postsLimit: Int!, $postsOffset: Int!) {
+  query DraftTemplate($postsLimit: Int!, $postsOffset: Int!) {
     allMarkdownRemark(
       limit: $postsLimit
       skip: $postsOffset
-      filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+      filter: { frontmatter: { template: { eq: "post" }, draft: { ne: false } } }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
@@ -76,4 +77,4 @@ export const query = graphql`
   }
 `;
 
-export default IndexTemplate;
+export default DraftTemplate;

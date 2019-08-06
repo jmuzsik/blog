@@ -11,44 +11,39 @@ type Props = {
 
 const Feed = ({ edges }: Props) => (
   <div className={styles['feed']}>
-    {edges.map(edge => (
-      <div className={styles['feed__item']} key={edge.node.fields.slug}>
-        <div className={styles['feed__item-meta']}>
-          <time
-            className={styles['feed__item-meta-time']}
-            dateTime={moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}
-          >
-            {moment(edge.node.frontmatter.date).format('MMMM Do, YYYY')}
-          </time>
-          <span className={styles['feed__item-meta-divider']} />
-          <span className={styles['feed__item-meta-category']}>
-            <Link
-              to={edge.node.fields.categorySlug}
-              className={styles['feed__item-meta-category-link']}
-            >
-              {edge.node.frontmatter.category}
-            </Link>
-          </span>
-        </div>
-        <h2 className={styles['feed__item-title']}>
-          <Link
-            className={styles['feed__item-title-link']}
-            to={edge.node.fields.slug}
-          >
-            {edge.node.frontmatter.title}
+    {edges.map(edge => {
+      const {
+        node: {
+          frontmatter: { description, date, title },
+          fields: { slug }
+        }
+      } = edge;
+      let finalDescription = description;
+      if (description.length > 100) {
+        finalDescription = description.slice(0, 100) + '...';
+      }
+      return (
+        <div className={`${styles['feed__item']} feed`} key={slug}>
+          <Link className={styles['feed__item-link']} to={slug}>
+            <div className={styles['feed__container']}>
+              <div className={styles['feed__item-meta']}>
+                <time
+                  className={styles['feed__item-meta-time']}
+                  dateTime={moment(date).format('MMMM D, YYYY')}
+                >
+                  {moment(date).format('MMMM Do, YYYY')}
+                </time>
+                <span className={styles['feed__item-meta-divider']} />
+              </div>
+              <h2 className={styles['feed__item-title']}>{title}</h2>
+              <span className={styles['feed__item-descrition']}>
+                {finalDescription}
+              </span>
+            </div>
           </Link>
-        </h2>
-        <p className={styles['feed__item-description']}>
-          {edge.node.frontmatter.description}
-        </p>
-        <Link
-          className={styles['feed__item-readmore']}
-          to={edge.node.fields.slug}
-        >
-          Read
-        </Link>
-      </div>
-    ))}
+        </div>
+      );
+    })}
   </div>
 );
 
