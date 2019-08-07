@@ -1,8 +1,8 @@
 ---
 title: Shadow DOM
 date: '2019-07-19'
-template: 'post'
-draft: false
+template: 'draft'
+draft: true
 slug: '/posts/7-19-19/'
 category: 'Web Components'
 tags:

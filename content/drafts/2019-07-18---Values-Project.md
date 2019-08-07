@@ -1,8 +1,8 @@
 ---
 title: Values Project, Performance, and Web Components
 date: '2019-07-18'
-template: 'post'
-draft: false
+template: 'draft'
+draft: true
 slug: '/posts/7-18-19/'
 category: 'Web Components'
 tags:

@@ -3,7 +3,7 @@ title: A Space Themed Intro to Golang
 date: '2017-12-20'
 template: 'post'
 draft: false
-slug: '/posts/a-space-themed-intro-to-golang/'
+slug: '/languages/space-intro-to-golang/'
 category: 'Golang'
 tags:
   - 'Golang'

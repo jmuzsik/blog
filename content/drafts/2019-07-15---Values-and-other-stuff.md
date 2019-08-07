@@ -1,8 +1,8 @@
 ---
 title: Values and a little about Svelte
 date: '2019-07-15'
-template: 'post'
-draft: false
+template: 'draft'
+draft: true
 slug: '/posts/7-15-19/'
 category: 'Values'
 tags:

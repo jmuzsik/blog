@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
   title: 'Blog by Jerry Muzsik',
-  subtitle: 'Clarity through poetry.',
+  subtitle: 'Clarity.',
   copyright: '',
   disqusShortname: 'fuzzduck-org',
   postsPerPage: 4,
@@ -36,7 +36,7 @@ module.exports = {
   ],
   author: {
     name: 'Jerry Muzsik',
-    photo: '/jerry-muzsik.jpg',
+    photo: '/deepdreamme.jpg',
     bio: '🤔✍️🤔',
     contacts: {
       email: 'jerrymuzsik@gmail.com',

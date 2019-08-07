@@ -1,8 +1,8 @@
 ---
 title: Mainly about The Silurian Hypothesis
 date: '2019-07-21'
-template: 'post'
-draft: false
+template: 'draft'
+draft: true
 slug: '/posts/7-21-19/'
 category: 'Web Components'
 tags:

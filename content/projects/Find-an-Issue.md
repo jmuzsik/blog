@@ -3,7 +3,7 @@ title: Use this site to contribute to open source
 date: '2018-08-28'
 template: 'post'
 draft: false
-slug: '/posts/find-an-issue/'
+slug: '/projects/find-an-Issue/'
 category: 'Projects'
 tags:
   - 'Open Source'

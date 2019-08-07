@@ -27,11 +27,9 @@ const DraftTemplate = ({ data, pageContext }: Props) => {
   } = pageContext;
 
   const { edges } = data.allMarkdownRemark;
-
   const pageTitle =
     currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
-  console.log('do i get here?')
-  console.log(data)
+
   return (
     <React.Fragment>
       <Layout title={pageTitle} description={siteSubtitle}>
@@ -56,7 +54,7 @@ export const query = graphql`
     allMarkdownRemark(
       limit: $postsLimit
       skip: $postsOffset
-      filter: { frontmatter: { template: { eq: "post" }, draft: { ne: false } } }
+      filter: { frontmatter: { template: { eq: "draft" }, draft: { eq: true } } }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {

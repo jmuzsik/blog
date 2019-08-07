@@ -1,8 +1,8 @@
 ---
 title: More Notes on Performance
 date: '2019-07-12'
-template: 'post'
-draft: false
+template: 'draft'
+draft: true
 slug: '/posts/notes-on-performance-7-12-19/'
 category: 'Performance'
 tags:

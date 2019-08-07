@@ -1,8 +1,8 @@
 ---
 title: Cognitive Dissonance
 date: '2019-07-13'
-template: 'post'
-draft: false
+template: 'draft'
+draft: true
 slug: '/posts/cognitive-dissonance/'
 category: 'Psychology'
 tags:

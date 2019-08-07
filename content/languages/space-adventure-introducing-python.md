@@ -3,7 +3,7 @@ title: A Space Adventure Introducing Python
 date: '2017-12-17'
 template: 'post'
 draft: false
-slug: '/posts/space-adventure-introducing-python/'
+slug: '/languages/space-adventure-introducing-python/'
 category: 'Python'
 tags:
   - 'Python'

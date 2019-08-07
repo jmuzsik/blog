@@ -3,7 +3,7 @@ title: How to Deploy a Create React App with Recharts, the WikiQuotes API, and D
 date: '2018-01-19'
 template: 'post'
 draft: false
-slug: '/posts/deploy-create-react-app/'
+slug: '/tutorials/create-and-deploy-create-react-app/'
 category: 'Javascript'
 tags:
   - 'Javascript'

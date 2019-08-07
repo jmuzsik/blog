@@ -17,7 +17,6 @@ type Props = {
 
 const IndexTemplate = ({ data, pageContext }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
-
   const {
     currentPage,
     hasNextPage,
@@ -55,7 +54,9 @@ export const query = graphql`
     allMarkdownRemark(
       limit: $postsLimit
       skip: $postsOffset
-      filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+      filter: {
+        frontmatter: { template: { eq: "post" }, draft: { eq: false } }
+      }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
@@ -69,6 +70,7 @@ export const query = graphql`
             date
             category
             description
+            draft
           }
         }
       }

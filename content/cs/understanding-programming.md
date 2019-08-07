@@ -3,7 +3,7 @@ title: Understanding Programming, first article
 date: '2019-06-25'
 template: 'post'
 draft: false
-slug: '/posts/understanding-program-6-25/'
+slug: '/cs/understanding-program/'
 category: 'Computer Science'
 tags:
   - 'Computer Science'

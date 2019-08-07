@@ -9,16 +9,20 @@ module.exports = async (graphql, actions) => {
   const result = await graphql(`
     {
       allMarkdownRemark(
-        filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
-      ) { totalCount }
+        filter: {
+          frontmatter: { template: { eq: "post" }, draft: { eq: false } }
+        }
+      ) {
+        totalCount
+      }
     }
   `);
 
   const { postsPerPage } = siteConfig;
-  const numPages = Math.ceil(result.data.allMarkdownRemark.totalCount / postsPerPage);
-  console.log(postsPerPage)
-  console.log(numPages);
-  console.log('wtf do i not see athing here???')
+  const numPages = Math.ceil(
+    result.data.allMarkdownRemark.totalCount / postsPerPage
+  );
+
   for (let i = 0; i < numPages; i += 1) {
     createPage({
       path: i === 0 ? '/' : `/page/${i}`,

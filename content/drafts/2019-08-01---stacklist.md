@@ -1,7 +1,7 @@
 ---
 title: hi
 date: '2019-08-01'
-template: 'post'
+template: 'draft'
 draft: true
 slug: '/posts/8-01-19/'
 category: 'huh'

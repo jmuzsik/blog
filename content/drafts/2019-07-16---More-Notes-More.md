@@ -1,8 +1,8 @@
 ---
 title: Performance again mainly
 date: '2019-07-16'
-template: 'post'
-draft: false
+template: 'draft'
+draft: true
 slug: '/posts/7-16-19/'
 category: 'Performance'
 tags:
