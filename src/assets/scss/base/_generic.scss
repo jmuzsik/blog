@@ -21,6 +21,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgba(34, 139, 34, 0.0439);
   overflow-x: hidden;
+  font-feature-settings: 'kern' 1, 'liga' 1, 'ss01' 1, 'ss04' 1;
 }
 
 h1,

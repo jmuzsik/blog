@@ -7,7 +7,7 @@ module.exports = {
   subtitle: 'Clarity.',
   copyright: '',
   disqusShortname: 'fuzzduck-org',
-  postsPerPage: 4,
+  postsPerPage: 6,
   menu: [
     {
       label: 'Essays and Articles',
@@ -32,7 +32,7 @@ module.exports = {
     {
       label: 'Concepts',
       path: '/concepts'
-    },
+    }
   ],
   author: {
     name: 'Jerry Muzsik',

@@ -19,28 +19,29 @@ const Feed = ({ edges }: Props) => (
         }
       } = edge;
       let finalDescription = description;
-      if (description.length > 100) {
-        finalDescription = description.slice(0, 100) + '...';
+      if (description.length > 70) {
+        finalDescription = `${description.slice(0, 70)}...`;
+      }
+      let finalTitle = title;
+      if (title.length > 30) {
+        finalTitle = `${title.slice(0, 30)}...`;
       }
       return (
         <div className={`${styles['feed__item']} feed`} key={slug}>
-          <Link className={styles['feed__item-link']} to={slug}>
-            <div className={styles['feed__container']}>
-              <div className={styles['feed__item-meta']}>
-                <time
-                  className={styles['feed__item-meta-time']}
-                  dateTime={moment(date).format('MMMM D, YYYY')}
-                >
-                  {moment(date).format('MMMM Do, YYYY')}
-                </time>
-                <span className={styles['feed__item-meta-divider']} />
-              </div>
-              <h2 className={styles['feed__item-title']}>{title}</h2>
-              <span className={styles['feed__item-descrition']}>
-                {finalDescription}
-              </span>
-            </div>
-          </Link>
+          <div className={styles['feed__item-container']}>
+            <time
+              className={styles['feed__item-time']}
+              dateTime={moment(date).format('MMMM D, YYYY')}
+            >
+              {moment(date).format('MMMM Do, YYYY')}
+            </time>
+            <Link className={styles['feed__item-link']} to={slug}>
+              <h2 className={styles['feed__item-title']}>{finalTitle}</h2>
+            </Link>
+            <span className={styles['feed__item-description']}>
+              {finalDescription}
+            </span>
+          </div>
         </div>
       );
     })}

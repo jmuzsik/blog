@@ -32,7 +32,17 @@ template: 'page'
     - We talk about our backgrounds and motivation for doing this podcast, and why the practice of faith seems so prevalent among open source developers.
 [Mr. Dodds made something that looks useful to listen to](https://kentcdodds.com/chats-with-kent-podcast)
 
-## Open source
+## Interesting tidbits
+
+From a Triple Byte article, notice that people frequently pass when using Golang:
+
+![chart showing what programming languages people pass triplebyte exams with](https://d25hn4jiqx5f7l.cloudfront.net/file_attachments/files/original/2d91c7bc54323641aa5e69ca602bdd01935d21ee.png?1543937547)
+
+## Articles to look back on from time to time
+
+[Preparing for a frontend web development interview](http://davidshariff.com/blog/preparing-for-a-front-end-web-development-interview-in-2017/#first-article)
+
+## Open source i've done
 
 [Code-nasa-gov](https://github.com/nasa/code-nasa-gov/commits?author=jMuzsik&since=2019-08-01&until=2019-08-02)
 
