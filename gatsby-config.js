@@ -130,7 +130,7 @@ module.exports = {
             }
             allSitePage(
               filter: {
-                path: { regex: "/^(?!/404/|/404.html|/dev-404-page/)/" }
+                path: { regex: "/^(?!/404/|/dev-404-page/)/" }
               }
             ) {
               edges {

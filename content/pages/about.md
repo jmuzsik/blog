@@ -3,7 +3,9 @@ title: 'This guy'
 template: 'page'
 ---
 
-I'm Jerry. Born and raised in the Bronx. Before joining the tech world, I was a chef in NYC. Currently, I am (mainly) a web developer. I'm in school currently, pursuing a degree in Computational Physics. Contemplating a more academic life. Contemplating quite a few things. This self, can it ever be completely understood? But I do love to create things with boolean switches. And I love science that touches the metaphysical. I believe that I am looking for an intersection of these two things. With some cooking mixed in.
+This site is a WIP. I have a lot of notes on here that I am consolidating, etc.
+
+I'm Jerry. Born and raised in the Bronx. Before joining the tech world, I was a chef in NYC. Currently, I am (mainly) a web developer. I'm in school currently, pursuing a degree in Biomedical Informatics. Contemplating a more academic life. Contemplating quite a few things. This self, can it ever be completely understood? But I do love to create things with boolean switches. And I love science that touches the metaphysical. I believe that I am looking for an intersection of these two things. With some cooking mixed in.
 
 Some facts perhaps?
 
@@ -15,3 +17,5 @@ Some facts perhaps?
 - Why do people not believe you're American? (Predominantly) an inexplicable deep accent
 - I don't watch much stuff nowadays but if I did I'd be utilising my [Mubi](https://mubi.com/showing) subscription.
 - I tend to go on long walks.
+
+And [this is my resume](https://youthful-shirley-b0ee96.netlify.com/) written in CSS/HTML.

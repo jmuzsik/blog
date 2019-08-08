@@ -27,7 +27,7 @@ module.exports = {
     },
     {
       label: 'Sets',
-      path: '/sets'
+      path: '/categories'
     },
     {
       label: 'Concepts',

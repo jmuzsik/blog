@@ -224,7 +224,7 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
         <ul>
           <li>
             <a
-              href="/set/test-0/"
+              href="/categories/test-0/"
             >
               test_0
                (
@@ -234,7 +234,7 @@ exports[`CategoriesListTemplate renders correctly 1`] = `
           </li>
           <li>
             <a
-              href="/set/test-1/"
+              href="/categories/test-1/"
             >
               test_1
                (

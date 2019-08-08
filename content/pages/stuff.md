@@ -26,16 +26,32 @@ template: 'page'
 
 [What’s next for CSS?](https://cssdb.org/)
 
+## Podcasts
+
+[About religion and open source](https://hopeinsource.com/)
+    - We talk about our backgrounds and motivation for doing this podcast, and why the practice of faith seems so prevalent among open source developers.
+[Mr. Dodds made something that looks useful to listen to](https://kentcdodds.com/chats-with-kent-podcast)
+
 ## Open source
 
 [Code-nasa-gov](https://github.com/nasa/code-nasa-gov/commits?author=jMuzsik&since=2019-08-01&until=2019-08-02)
+
 [jupyter.github.io](https://github.com/jupyter/jupyter.github.io/commits?author=jMuzsik&since=2019-07-01&until=2019-08-01)
+
 [Google Web Fundamentals](https://github.com/google/WebFundamentals/commits?author=jMuzsik&since=2019-07-01&until=2019-08-01)
+
 [PWA Starter Kit](https://github.com/Polymer/pwa-starter-kit/commits?author=jMuzsik&since=2019-07-01&until=2019-08-01)
+
 [React Window](https://github.com/bvaughn/react-window/commits?author=jMuzsik&since=2019-07-01&until=2019-08-01)
+
 [Find an Issue](https://github.com/jMuzsik/find-an-issue)
+
 [html5sortable](https://github.com/lukasoppermann/html5sortable/commits?author=jMuzsik)
+
 [Pypa Warehouse](https://github.com/pypa/warehouse/commits?author=jMuzsik)
+
 [Create React App](https://github.com/facebook/create-react-app/commits?author=jMuzsik)
+
 [Gizmo](https://github.com/NYTimes/gizmo/commits?author=jMuzsik)
+
 [Mocha](https://github.com/mochajs/mocha/commits?author=jMuzsik)

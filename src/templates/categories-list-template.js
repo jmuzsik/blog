@@ -14,21 +14,21 @@ const CategoriesListTemplate = () => {
 
   return (
     <React.Fragment>
-      <Layout title={`Categories - ${title}`} description={subtitle}>
-        <Sidebar />
-        <Page title="Sets">
-          <ul>
-            {categories.map(category => (
-              <li key={category.fieldValue}>
-                <Link to={`/set/${kebabCase(category.fieldValue)}/`}>
-                  {category.fieldValue} ({category.totalCount})
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </Page>
-      </Layout>
-      <Waves />
+    <Layout title={`Categories - ${title}`} description={subtitle}>
+      <Sidebar />
+      <Page title="Categories">
+        <ul>
+          {categories.map((category) => (
+            <li key={category.fieldValue}>
+              <Link to={`/category/${kebabCase(category.fieldValue)}/`}>
+                {category.fieldValue} ({category.totalCount})
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </Page>
+    </Layout>
+<Waves />
     </React.Fragment>
   );
 };
