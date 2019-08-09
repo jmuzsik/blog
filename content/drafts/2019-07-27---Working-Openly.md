@@ -1,6 +1,5 @@
 ---
 title: Background Tasks API and last night's dream
-date: '2019-07-29'
 template: 'draft'
 draft: true
 slug: '/posts/7-29-19/'

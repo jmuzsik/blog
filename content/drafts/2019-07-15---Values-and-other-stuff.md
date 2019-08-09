@@ -1,6 +1,5 @@
 ---
 title: Values and a little about Svelte
-date: '2019-07-15'
 template: 'draft'
 draft: true
 slug: '/posts/7-15-19/'

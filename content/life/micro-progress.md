@@ -1,6 +1,5 @@
 ---
 title: You can only learn so much
-date: '2019-08-06'
 template: 'post'
 draft: false
 slug: '/life/micro-progress'

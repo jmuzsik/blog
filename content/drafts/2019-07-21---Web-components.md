@@ -1,6 +1,5 @@
 ---
 title: Mainly about The Silurian Hypothesis
-date: '2019-07-21'
 template: 'draft'
 draft: true
 slug: '/posts/7-21-19/'

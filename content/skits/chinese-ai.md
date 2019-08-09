@@ -1,6 +1,5 @@
 ---
 title: AI in China And Yang
-date: '2019-08-08'
 template: 'post'
 draft: false
 slug: '/skits/chinese-ai'

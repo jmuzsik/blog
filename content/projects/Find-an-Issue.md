@@ -1,6 +1,5 @@
 ---
 title: Use this site to contribute to open source
-date: '2018-08-28'
 template: 'post'
 draft: false
 slug: '/projects/find-an-Issue/'

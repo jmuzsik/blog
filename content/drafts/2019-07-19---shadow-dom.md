@@ -1,6 +1,5 @@
 ---
 title: Shadow DOM
-date: '2019-07-19'
 template: 'draft'
 draft: true
 slug: '/posts/7-19-19/'

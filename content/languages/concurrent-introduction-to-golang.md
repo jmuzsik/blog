@@ -1,6 +1,5 @@
 ---
 title: A Concurrent Adventure Introducing Golang
-date: '2017-11-20'
 template: 'post'
 draft: false
 slug: '/languages/concurrent-introduction-to-golang/'

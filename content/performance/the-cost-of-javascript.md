@@ -1,6 +1,5 @@
 ---
 title: The Cost of Javascript
-date: '2019-08-08'
 template: 'post'
 draft: false
 slug: '/performance/the-cost-of-javascript'

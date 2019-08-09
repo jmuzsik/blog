@@ -1,6 +1,5 @@
 ---
 title: How to Setup Next Gen Images for React
-date: '2019-07-09'
 template: 'post'
 draft: false
 slug: '/projects/next-gen-images-react-7-09-19/'

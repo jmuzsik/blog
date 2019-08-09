@@ -1,6 +1,5 @@
 ---
 title: A Space Adventure Introducing Python
-date: '2017-12-17'
 template: 'post'
 draft: false
 slug: '/languages/space-adventure-introducing-python/'

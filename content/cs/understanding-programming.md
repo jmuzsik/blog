@@ -1,6 +1,5 @@
 ---
 title: Understanding Programming, first article
-date: '2019-06-25'
 template: 'post'
 draft: false
 slug: '/cs/understanding-program/'

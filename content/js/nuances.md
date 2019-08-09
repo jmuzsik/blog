@@ -1,6 +1,5 @@
 ---
 title: JavaScript Nuances
-date: '2019-08-08'
 template: 'post'
 draft: false
 slug: '/js/nuances'

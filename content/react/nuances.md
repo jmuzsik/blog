@@ -1,6 +1,5 @@
 ---
 title: React Nuances
-date: '2019-08-08'
 template: 'draft'
 draft: true
 slug: '/react/nuances'

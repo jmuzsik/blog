@@ -1,6 +1,5 @@
 ---
 title: Virtual DOM
-date: '2019-08-08'
 template: 'draft'
 draft: true
 slug: '/react/virtual-dom'

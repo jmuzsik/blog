@@ -1,6 +1,5 @@
 ---
 title: Cognitive Dissonance
-date: '2019-07-13'
 template: 'draft'
 draft: true
 slug: '/posts/cognitive-dissonance/'

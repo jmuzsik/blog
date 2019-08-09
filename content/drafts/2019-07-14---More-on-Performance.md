@@ -1,6 +1,5 @@
 ---
 title: More Notes on Performance, The Formation of the Moon
-date: '2019-07-14'
 template: 'draft'
 draft: true
 slug: '/posts/7-14-19/'

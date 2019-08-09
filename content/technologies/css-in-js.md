@@ -1,6 +1,5 @@
 ---
 title: CSS in JS
-date: '2019-08-06'
 template: 'post'
 draft: false
 slug: '/technologies/css-in-js'

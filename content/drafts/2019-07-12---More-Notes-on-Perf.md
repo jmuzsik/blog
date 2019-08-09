@@ -1,6 +1,5 @@
 ---
 title: More Notes on Performance
-date: '2019-07-12'
 template: 'draft'
 draft: true
 slug: '/posts/notes-on-performance-7-12-19/'
@@ -40,87 +39,6 @@ description: 'More notes from Google Web Fundamentals articles. This is focused 
 17. **Use transform and opacity over other animation properties.**
 18. Mercury is the closest planet to every other planet throughout the year, on average.
 
-## Analyzing Critical Rendering Path Performance
-
-First of all, additional requests to think about:
-
-> - A network roundtrip (propagation latency) to the server costs 100ms.
-> - Server response time is 100ms for the HTML document and 10ms for all other files.
-
-- This is to say that you have to take into account these extra time restraints for each page load.
-
-### Images
-
-> Images do not block the initial render of the page—although we should also try to get the images painted as soon as possible.
-
-- `onload` event will not trigger until images load, though.
-  - This event marks the point at which all resources that the page requires have been downloaded and processed
-
-### This page, initial load
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Critical Path: Measure Script</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link href="style.css" rel="stylesheet" />
-  </head>
-  <body onload="measureCRP()">
-    <p>Hello <span>web performance</span> students!</p>
-    <div><img src="awesome-photo.jpg" /></div>
-    <script src="timing.js"></script>
-  </body>
-</html>
-```
-
-- Note: `timing.js` takes around 1ms to run
-
-This is on a fast connection
-
-1. ? ms's - Run page
-2. 1ms - Request of document -> Response -> `pagehide` event -> `visibilitychange` event -> `unload` event -> `readystatechange` event which triggers `readystate` to `loading`
-   - `pagehide` - sent to a Window when the browser hides the current page in the process of presenting a different page from the session's history.
-   - `visibilitychange` - fired when the content of a tab has become visible or has been hidden.
-   - `unload` - fired when the document or a child resource is being unloaded.
-   - `readystatechange` - changes `readystate` attribute (loading -> interactive -> complete)
-3. 11ms - `Received Data` is triggered
-4. 20ms - data is parsed, `Finish Loading` is triggered
-5. \> 2ms - `Parse HTML` - JS, CSS, image is requested dependent upon where it is in the HTML
-6. 35ms - `Receive Response` for CSS
-7. 1ms - `Receive Data` -> `Parse Stylesheet` -> `Finish Loading` (stylesheet)
-8. Right after - `onload` event is triggered on document
-9. 1ms - `Recalculate Style`
-10. 85ms - `Layout`
-11. \> 1ms - `Update Layer Tree` -> `Paint` -> `Composite Layers` -> same things repeat a little
-12. ~ 2ms - `Receive Response` 2x (image and JS) -> `Recieve Data` (Image) -> `Finish Loading` (Image)
-13. 3.71ms -> `Composite Layers` (make space for image)
-14. \> 1ms -> `Receive Data` (JS) -> `load` (JS) -> call stack(`Evaluate Script` -> `Compile Script`)
-15. 5ms - callstack {`Parse HTML`, {`Event Load` -> `Function Call` -> `anonymous` -> `measureCRP`}, {`Recalculate Style` and `Layout}}
-16. `DOMContentLoaded`
-17. 20 ms later - Layer updating and paint for 1ms
-
-Around 200ms total for that simple site
-
-- If JS is loaded asynchronously it is run prior to `Layout` and `Parse HTML` is not run a second time.
-- I think the image begins loading first because it is read by the parser before the JS.
-
-### Reason this stuff is important
-
-> Figuring out the characteristics of your critical rendering path means being able to identify the critical resources and also understanding how the browser will schedule their fetches.
-
-### Aim for something like this:
-
-![Ideal scenario of the critical rendering path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/analysis-dom-css-js-async.png)
-
-- Async JS
-
-### If CSS is not needed, but it is available for particular media queries or the like
-
-![Ideal scenario of the critical rendering path when CSS is not necessary for page load](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/analysis-dom-css-nb-js-async.png)
-
-- ie. CSS is not render blocking
-
 ## Optimizing the Critical Rendering Path
 
 The general sequence of steps to optimize the critical rendering path is:
@@ -129,24 +47,6 @@ The general sequence of steps to optimize the critical rendering path is:
 2. Minimize number of critical resources: eliminate them, defer their download, mark them as async, and so on.
 3. Optimize the number of critical bytes to reduce the download time (number of roundtrips).
 4. Optimize the order in which the remaining critical resources are loaded: download all critical assets as early as possible to shorten the critical path length.
-
-## PageSpeed Rules and Recommendations
-
-### Javascript
-
-- Defer parsing JavaScript
-- Avoid long running JavaScript
-- Maybe use this? `navigator.sendBeacon()`
-  - [Smashing Magazine Article](https://www.smashingmagazine.com/2018/07/logging-activity-web-beacon-api/)
-  - Basically, use this if you need to send small amounts of data from the browser to the web server without waiting for a response. (pattern of send-and-forget)
-
-### CSS
-
-- Put CSS in the document head
-  - Specify all CSS resources as early as possible within the HTML document so that the browser can discover the `<link>` tags and dispatch the request for the CSS as soon as possible.
-- Avoid CSS imports (`@import`)
-- Inline render-blocking CSS (right into the HTML document) so they parse simultaneously
-- Media queries or in link tags, best bet is likely to have styles for mobile, and other screen sizes in their own files
 
 # [Rendering Performance](https://developers.google.com/web/fundamentals/performance/rendering/)
 

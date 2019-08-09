@@ -1,6 +1,5 @@
 ---
 title: JAMStack
-date: '2019-08-06'
 template: 'post'
 draft: false
 slug: '/technologies/jamstack'

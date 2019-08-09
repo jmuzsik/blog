@@ -1,6 +1,5 @@
 ---
 title: A Space Themed Intro to Golang
-date: '2017-12-20'
 template: 'post'
 draft: false
 slug: '/languages/space-intro-to-golang/'
