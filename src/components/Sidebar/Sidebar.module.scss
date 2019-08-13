@@ -11,41 +11,15 @@
 
 @include breakpoint-sm {
   .sidebar {
-    lost-column: 5/12;
+    lost-column: 1/4;
     &__inner {
       padding: 30px 20px 0;
-      min-height: 75vh;
-      &:after {
-        content: '';
-        background-image: url(/palm-tree.svg);
-        position: absolute;
-        background-size: contain;
-        background-repeat: repeat;
-        background-repeat: space;
-        width: 25px;
-        height: calc(100% - 3rem);
-        right: 10%;
-        bottom: 0;
-      }
-      &:before {
-        content: '';
-        background-image: url(/leprachan-icon.png);
-        position: absolute;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        width: 25px;
-        height: 25px;
-        margin-left: auto;
-        right: 36px;
-        top: 36px;
-      }
     }
   }
 }
 
 @include breakpoint-md {
   .sidebar {
-    lost-column: 1/3;
     &__inner {
       padding: 40px;
     }

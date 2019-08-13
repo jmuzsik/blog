@@ -1,13 +1,13 @@
 ---
 title: Use this site to contribute to open source
 template: 'post'
+image: "https://image.flaticon.com/icons/svg/25/25231.svg"
+alt: "github logo"
 draft: false
 slug: '/projects/find-an-Issue/'
 category: 'Projects'
 tags:
   - 'Open Source'
-  - 'Github'
-  - 'Javascript'
 description: 'When I began the transition into being a software developer, I knew that contributing to open source projects would greatly assist my job…'
 ---
 

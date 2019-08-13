@@ -3,11 +3,9 @@ title: A Space Adventure Introducing Python
 template: 'post'
 draft: false
 slug: '/languages/space-adventure-introducing-python/'
-category: 'Python'
+category: 'Languages'
 tags:
   - 'Python'
-  - 'Backend'
-  - 'Not-Javascript'
 description: 'This article is not targeting the absolute beginner. It is specifically for JS Developers or the like looking for a fun introduction to the incredibly popular programming language Python. Many concepts explained: multiple inheritance, list comprehensions, the basics, and peculiarities of the language. All code can instantly be copied/pasted into a repl, and there is a repl near the end of the article to look directly at.'
 ---
 

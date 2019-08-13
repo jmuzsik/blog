@@ -28,7 +28,7 @@ description: 'More notes from Google Web Fundamentals articles. This is focused 
 6. `navigator.sendBeacon()` may be useful in my future.
 7. _60 frames per second_ is the goal. You have 10ms to do everything you need to do per frame to get those _60 frames per second_.
 8. **JS -> Style -> Layout -> Paint -> Composite** or JS talks to the DOM -> selectors -> spacing -> filling in pixels -> layering
-9. You can skip layout by changing something that only affects paint.
+9. You **can** skip layout by changing something that only affects paint.
 10. You can skip layout and paint by only changing attributes related to composite.
 11. **Use `requestAnimationFrame`** whenever you mess with the DOM.
 12. Whenever you have JS running in the background that does not affect the DOM, use a **Web Worker**.
@@ -38,21 +38,6 @@ description: 'More notes from Google Web Fundamentals articles. This is focused 
 16. Use `will-change` if an animation has poor performance.
 17. **Use transform and opacity over other animation properties.**
 18. Mercury is the closest planet to every other planet throughout the year, on average.
-
-## Optimizing the Critical Rendering Path
-
-The general sequence of steps to optimize the critical rendering path is:
-
-1. Analyze and characterize your critical path: number of resources, bytes, length.
-2. Minimize number of critical resources: eliminate them, defer their download, mark them as async, and so on.
-3. Optimize the number of critical bytes to reduce the download time (number of roundtrips).
-4. Optimize the order in which the remaining critical resources are loaded: download all critical assets as early as possible to shorten the critical path length.
-
-# [Rendering Performance](https://developers.google.com/web/fundamentals/performance/rendering/)
-
-## Overview
-
-### [This is a cool thing about what happens in browsers for css properties](https://csstriggers.com)
 
 ### Jank
 

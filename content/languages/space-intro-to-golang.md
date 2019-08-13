@@ -3,11 +3,9 @@ title: A Space Themed Intro to Golang
 template: 'post'
 draft: false
 slug: '/languages/space-intro-to-golang/'
-category: 'Golang'
+category: 'Languages'
 tags:
   - 'Golang'
-  - 'Backend'
-  - 'Not-Javascript'
 description: 'A short article about Golang aimed for newer developers or those who have not spent much time researching the language and would like a short, concise, well thought-out, and original introduction. All code written is within a repl.'
 ---
 

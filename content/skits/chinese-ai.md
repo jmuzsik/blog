@@ -1,6 +1,8 @@
 ---
 title: AI in China And Yang
 template: 'post'
+image: "http://static2.stuff.co.nz/1553761468/364/23333364.jpg"
+alt: "homer with arms up"
 draft: false
 slug: '/skits/chinese-ai'
 category: 'Skit'

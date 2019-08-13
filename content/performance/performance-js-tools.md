@@ -1,11 +1,11 @@
 ---
-title: Notes on Performance
+title: Performance Tools
 template: 'post'
 draft: false
 slug: '/posts/performance-js-tools'
 category: 'Performance'
 tags:
-  - 'Tools to measure page performance with JS.'
+  - 'Tools'
 description: 'Tools to measure page performance with JS.'
 ---
 

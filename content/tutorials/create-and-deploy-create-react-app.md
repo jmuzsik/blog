@@ -1,17 +1,13 @@
 ---
-title: How to Deploy a Create React App with Recharts, the WikiQuotes API, and Datasets
-date: '2018-01-19'
+title: React tutorial
 template: 'post'
+image: "https://s3.amazonaws.com/thumbnails.illustrationsource.com/huge.5.27410.JPG"
+alt: "guy stacking boxes somehow symbolising a tutorial"
 draft: false
 slug: '/tutorials/create-and-deploy-create-react-app/'
 category: 'Javascript'
 tags:
-  - 'Javascript'
-  - 'Frontend'
-  - 'Create React App'
-  - 'Recharts'
-  - 'Wikipedia'
-  - 'Data Visualisation'
+  - 'Tutorial'
 description: 'I recently built an app utilising data from the WHO (World Health Organisation), the WikiQuotes API, Recharts, lots of CSS and JS, and, of course, passion for the subject. This will show you how to do it minutely.'
 ---
 

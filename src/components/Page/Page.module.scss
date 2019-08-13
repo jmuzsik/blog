@@ -9,15 +9,14 @@
     font-weight: 600;
     @include line-height(2);
     @include margin-top(0);
-    @include margin-bottom(1.45);
     padding-right: 15px;
     padding-left: 15px;
+    position: relative;
   }
 
   &__body {
     font-size: $typographic-base-font-size;
     @include line-height(1);
-    @include margin(0, 0, 1);
     position: relative;
   }
 }
@@ -25,10 +24,10 @@
 @include breakpoint-sm {
   .page {
     lost-column: 7/12;
-  }
-  &__title {
-    margin-right: 25px;
-    margin-left: 25px;
+
+    &__title {
+      padding-left: 0;
+    }
   }
 }
 

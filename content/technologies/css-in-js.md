@@ -1,6 +1,8 @@
 ---
 title: CSS in JS
 template: 'post'
+image: "https://crypviz.io/wp-content/uploads/2017/11/QUBIT.png"
+alt: "bit vs qubit"
 draft: false
 slug: '/technologies/css-in-js'
 category: 'CSS'

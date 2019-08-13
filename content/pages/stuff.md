@@ -9,8 +9,8 @@ template: 'page'
 2. [Testifying at the Senate about A.I.-Selected Content on the Internet](https://blog.stephenwolfram.com/2019/06/testifying-at-the-senate-about-a-i-selected-content-on-the-internet/)
 3. [Cities from Scratch](https://www.theguardian.com/cities/ng-interactive/2019/jul/09/cities-from-scratch-100-and-counting-new-cities-rise-from-the-desert-jungle-and-sea)
 4. [Why Google stores billions of lines of code in a single repository](https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext)
-5. [Making WebAssembly even faster: Firefox’s new streaming and tiering compiler](https://hacks.mozilla.org/2018/01/making-webassembly-even-faster-firefoxs-new-streaming-and-tiering-compiler/)
-6. [WebAssembly’s post-MVP future: A cartoon skill tree](https://hacks.mozilla.org/2018/10/webassemblys-post-mvp-future/)
+5. [Making WebAssembly even faster: Firefox's new streaming and tiering compiler](https://hacks.mozilla.org/2018/01/making-webassembly-even-faster-firefoxs-new-streaming-and-tiering-compiler/)
+6. [WebAssembly's post-MVP future: A cartoon skill tree](https://hacks.mozilla.org/2018/10/webassemblys-post-mvp-future/)
 7. [Basically everything here](https://hacks.mozilla.org/category/code-cartoons/)
 8. [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](https://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
 9. [React reconciliation](https://reactjs.org/docs/reconciliation.html)
@@ -30,6 +30,7 @@ template: 'page'
 
 [About religion and open source](https://hopeinsource.com/)
     - We talk about our backgrounds and motivation for doing this podcast, and why the practice of faith seems so prevalent among open source developers.
+
 [Mr. Dodds made something that looks useful to listen to](https://kentcdodds.com/chats-with-kent-podcast)
 
 ## Interesting tidbits
@@ -65,3 +66,23 @@ From a Triple Byte article, notice that people frequently pass when using Golang
 [Gizmo](https://github.com/NYTimes/gizmo/commits?author=jMuzsik)
 
 [Mocha](https://github.com/mochajs/mocha/commits?author=jMuzsik)
+
+## Sick picks
+
+[compilation of web dev resources](https://webgems.io/)
+
+[for design stuff](https://creativemarket.com/)
+
+[design inspiration](https://uimovement.com/)
+
+[learn react spring](https://www.react-spring.io/)
+
+[dot conferences to watch](https://www.dotconferences.com/)
+
+## Wise man Stephen Wolfram talks
+
+[lecture at an MIT AI class](https://www.youtube.com/watch?v=P7kX7BuHSFI)
+
+[ted talk](https://www.youtube.com/watch?v=60P7717-XOQ)
+
+His books are worthwhile to buy as well

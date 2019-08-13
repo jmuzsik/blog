@@ -1,6 +1,8 @@
 ---
 title: HTML Nuances
 template: 'post'
+image: "https://image.flaticon.com/icons/png/512/36/36986.png"
+alt: "html logo"
 draft: false
 slug: '/html/nuances'
 category: 'HTML'

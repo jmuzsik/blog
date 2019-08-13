@@ -25,10 +25,7 @@
         2,
         "as-needed"
       ],
-      "arrow-parens": [
-        "error",
-        "always"
-      ],
+      "arrow-parens": "off",
       "import/no-extraneous-dependencies": [
         "error",
         {

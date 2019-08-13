@@ -9,12 +9,9 @@ I'm Jerry. Born and raised in the Bronx. Before joining the tech world, I was a 
 
 Some facts perhaps?
 
-- If I have to pick a gender classification, it's guy.
-- I read a lot of magazines...[Nautilus](https://nautil.us/), [MIT Technology Review](https://www.technologyreview.com/), and whatever other interesting things I get my hands on. I read a lot in general.
-- A defining characteristic? 95% of the people I meet do not believe me when I say I am American
+- I read a lot of magazines...mainly Nature and Harper's, and whatever other interesting things I get my hands on. I read a lot in general.
 - Sports? I play a lot of football (the one with the ball on the feet). Surfing is fun
 - Weekend? Words, experiences, and [Go](https://senseis.xmp.net/?WhatIsGo)
-- Why do people not believe you're American? (Predominantly) an inexplicable deep accent
 - I don't watch much stuff nowadays but if I did I'd be utilising my [Mubi](https://mubi.com/showing) subscription.
 - I tend to go on long walks.
 

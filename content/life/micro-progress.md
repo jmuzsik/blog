@@ -1,12 +1,13 @@
 ---
 title: You can only learn so much
 template: 'post'
+image: "https://i.pinimg.com/originals/4e/58/c7/4e58c7c5e09fbf7d2427ce1d610cd305.png"
+alt: "earth black and white"
 draft: false
 slug: '/life/micro-progress'
-category: 'Learning'
+category: 'Life'
 tags:
-  - 'Fullstack Developer'
-  - 'Frontend Developer'
+  - 'Micro Progress'
 description: 'Learn what you are passionate about.'
 ---
 

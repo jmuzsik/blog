@@ -10,12 +10,12 @@ module.exports = {
   postsPerPage: 6,
   menu: [
     {
-      label: 'Essays and Articles',
+      label: 'Sets',
       path: '/'
     },
     {
-      label: 'Notes and Drafts',
-      path: '/drafts'
+      label: 'Concepts',
+      path: '/concepts'
     },
     {
       label: 'Stuff',
@@ -24,14 +24,6 @@ module.exports = {
     {
       label: 'This guy',
       path: '/pages/about'
-    },
-    {
-      label: 'Sets',
-      path: '/categories'
-    },
-    {
-      label: 'Concepts',
-      path: '/concepts'
     }
   ],
   author: {

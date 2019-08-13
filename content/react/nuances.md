@@ -1,6 +1,8 @@
 ---
 title: React Nuances
-template: 'draft'
+template: 'post'
+image: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+alt: "react logo"
 draft: true
 slug: '/react/nuances'
 category: 'React'

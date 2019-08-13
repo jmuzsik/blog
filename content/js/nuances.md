@@ -1,6 +1,8 @@
 ---
 title: JavaScript Nuances
 template: 'post'
+image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+alt: "javascript logo"
 draft: false
 slug: '/js/nuances'
 category: 'Javascript'

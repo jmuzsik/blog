@@ -17,9 +17,6 @@ export default function Waves() {
         <div className={styles['waves__x2']}>
           <div className={styles['waves__cloud']} />
         </div>
-        <div className={styles['waves__x3']}>
-          <div className={styles['waves__cloud']} />
-        </div>
         <div className={styles['waves__x4']}>
           <div className={styles['waves__cloud']} />
         </div>

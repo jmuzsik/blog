@@ -13,12 +13,19 @@ const useCategoriesList = () => {
           group(field: frontmatter___category) {
             fieldValue
             totalCount
+            edges {
+              node {
+                frontmatter {
+                  image
+                  alt
+                }
+              }
+            }
           }
         }
       }
     `
   );
-
   return allMarkdownRemark.group;
 };
 

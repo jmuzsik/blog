@@ -1,6 +1,8 @@
 ---
 title: Critical Rendering Path
 template: 'post'
+image: "https://developers.google.com/web/progressive-web-apps/images/pwa-lighthouse.png"
+alt: "google lighthouse logo"
 draft: false
 slug: '/posts/critical-rendering-path'
 category: 'Performance'
@@ -9,7 +11,7 @@ tags:
 description: 'The path from code to a real page.'
 ---
 
-The simple tree below is what will be analysed.
+First, let's look at this simple HTML tree:
 
 ```html
 <!DOCTYPE html>
@@ -78,7 +80,7 @@ Basically, it goes as so... create DOM tree, apply CSSOM, emit nodes.
 
 ### Main premise
 
-This is always the first step in creating a webpage. The browser must know this prior doing anything else related to creating the webpage. So, CSS and HTML are defined as **render blocking resources**. 
+This is always the first step in creating a webpage. The browser must know this prior doing anything else related to creating the webpage. So, CSS and HTML are defined as **render blocking resources**.
 
 ## Layout and Reflow stage
 
@@ -102,7 +104,7 @@ Or with CSS media queries or asynchronous loading of stylesheets:
 
 ![Ideal scenario of the critical rendering path when CSS is not necessary for page load](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/analysis-dom-css-nb-js-async.png)
 
-## Optimizing the Critical Rendering Path
+## Optimizing the Critical Rendering Path (how you should format your HTML document)
 
 The general sequence of steps to optimize the critical rendering path is:
 

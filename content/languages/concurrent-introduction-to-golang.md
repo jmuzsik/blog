@@ -1,13 +1,13 @@
 ---
 title: A Concurrent Adventure Introducing Golang
 template: 'post'
+image: "https://live.staticflickr.com/8013/7637578338_6f519bb2d9_b.jpg"
+alt: 'programming languages logo'
 draft: false
 slug: '/languages/concurrent-introduction-to-golang/'
-category: 'Golang'
+category: 'Languages'
 tags:
   - 'Golang'
-  - 'Backend'
-  - 'Not-Javascript'
 description: 'A fun introduction to Go for Javascript Developers or people of a similar vein, as in predominantly dynamically typed language experience. There are many links within, as they were links that were integral in my understanding the language.'
 ---
 

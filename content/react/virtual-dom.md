@@ -1,6 +1,6 @@
 ---
 title: Virtual DOM
-template: 'draft'
+template: 'post'
 draft: true
 slug: '/react/virtual-dom'
 category: 'React'

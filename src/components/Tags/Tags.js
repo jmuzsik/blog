@@ -5,14 +5,14 @@ import styles from './Tags.module.scss';
 
 export default function Tags({ tags }) {
   return (
-    <ul className={styles['tags']}>
+    <div className={styles['tags']}>
       {tags.map(tag => (
-        <li key={tag.fieldValue}>
-          <Link to={`/concept/${kebabCase(tag.fieldValue)}/`}>
+        <span key={tag.fieldValue} className={styles['tags__text']}>
+          <Link to={`/concept/${kebabCase(tag.fieldValue)}/`} className={styles['tags__text-link']}>
             {tag.fieldValue} ({tag.totalCount})
           </Link>
-        </li>
+        </span>
       ))}
-    </ul>
+    </div>
   );
 }

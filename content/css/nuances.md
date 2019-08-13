@@ -1,6 +1,8 @@
 ---
 title: CSS Nuances
 template: 'post'
+image: "https://cdn.iconscout.com/icon/free/png-256/css3-9-1175237.png"
+alt: "css logo"
 draft: false
 slug: '/css/nuances'
 category: 'CSS'
@@ -29,3 +31,7 @@ ul > li {
 #### BEM
 
 Basically, `.some-class__thing-in-class`
+
+### What happens when you alter a CSS property after the DOM has loaded?
+
+https://csstriggers.com
