@@ -17,6 +17,11 @@ template: 'page'
 10. [Some stuff in this blog about technical writing looks fitting](https://kayce.basqu.es/blog/)
 11. [Preload, Prefetch And Priorities in Chrome](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
 
+
+## Books to potentially buy
+
+[Super Thinking](https://superthinking.com/)
+
 ## Codepens
 
 - [Intersection Observer example and fancy text](https://codepen.io/jmuzsik/pen/NQyrYG)
