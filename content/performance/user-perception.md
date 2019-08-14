@@ -1,12 +1,12 @@
 ---
-title: User Perception
+title: Rendering Performance
 template: 'post'
 draft: false
-slug: '/performance/user-perception'
+slug: '/performance/rendering-performance'
 category: 'Performance'
 tags:
   - 'User perception'
-description: 'A little about user perception of performance.'
+description: 'A little about rendering performance.'
 ---
 
 ## User Perception Of Performance Delays
@@ -34,3 +34,28 @@ Users experience a slight perceptible delay.
 ### | 10000ms or more
 
 - Beyond 10000 milliseconds (10 seconds), users are frustrated and are likely to abandon tasks. They may or may not come back later.
+
+## Jank
+
+Basically, if there is perceptible delay on the screen, a user experiences jank.
+
+- Devices refresh their screen 60 times a second, so whatever code is running within a single frame should take (1s (1000ms) / 60) = `16.66ms`. But "housekeeping" occurs as well. So it is closer to `10ms`. If your processes take more than `10ms` the frame rate drops. You don't want that. You want to keep that 60 frames per second.
+
+## The process of code -> screen when visual changes occur or the Pixel Pipeline
+
+![pixel pipeline representation](https://developers.google.com/web/fundamentals/performance/rendering/images/intro/frame-full.jpg)
+
+1. JS - explains itself
+2. Style Calculations - figuring out which elements to style based on selectors.
+3. Layout - Calculate spacing of each element on the screen. Calculates element's geometry.
+4. Paint - Filling in pixels. It involves drawing out text, colors, images, borders, and shadows, essentially every visual part of the elements. The drawing is typically done onto multiple surfaces, often called layers.
+5. Compositing - Orders the layers in the page correctly.
+
+### Sometimes the whole pipeline is not utilised
+
+1. JS / CSS -> Style -> Layout -> Paint -> Composite
+   - Browser has to check all the other elements and "reflow" the page.
+2. JS / CSS -> Style -> Paint -> Composite
+   - If changing "paint only" property, Layout is skipped
+3. JS / CSS -> Style -> Composite
+   - No affect on paint or layout. Only compositing.

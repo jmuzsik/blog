@@ -15,6 +15,17 @@ template: 'page'
 8. [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](https://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
 9. [React reconciliation](https://reactjs.org/docs/reconciliation.html)
 10. [Some stuff in this blog about technical writing looks fitting](https://kayce.basqu.es/blog/)
+11. [Preload, Prefetch And Priorities in Chrome](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
+
+## Codepens
+
+- [Intersection Observer example and fancy text](https://codepen.io/jmuzsik/pen/NQyrYG)
+  - Inspired by this website: https://bejamas.io/blog/jamstack-modern-web-development/
+  - And this: https://css-tricks.com/a-few-functional-uses-for-intersection-observer-to-know-when-an-element-is-in-view/
+
+## Stack overflow useful stuff
+
+- [Runtime vs compile-time](https://stackoverflow.com/questions/846103/runtime-vs-compile-time)
 
 ## Code to keep track of
 
@@ -26,10 +37,13 @@ template: 'page'
 
 [What’s next for CSS?](https://cssdb.org/)
 
+## Awesome science stuff
+
+[The atlas of moons](https://www.nationalgeographic.com/science/2019/07/the-atlas-of-moons/)
+
 ## Podcasts
 
-[About religion and open source](https://hopeinsource.com/)
-    - We talk about our backgrounds and motivation for doing this podcast, and why the practice of faith seems so prevalent among open source developers.
+[About religion and open source](https://hopeinsource.com/) - We talk about our backgrounds and motivation for doing this podcast, and why the practice of faith seems so prevalent among open source developers.
 
 [Mr. Dodds made something that looks useful to listen to](https://kentcdodds.com/chats-with-kent-podcast)
 
@@ -86,3 +100,7 @@ From a Triple Byte article, notice that people frequently pass when using Golang
 [ted talk](https://www.youtube.com/watch?v=60P7717-XOQ)
 
 His books are worthwhile to buy as well
+
+## Things to keep track of if ever working at some fancy company
+
+- https://speedcurve.com/

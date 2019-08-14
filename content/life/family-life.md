@@ -1,14 +1,12 @@
 ---
 title: Family Life
-date: '2019-07-24'
-draft: true
-slug: '/posts/7-24-19/'
-category: 'Real life'
+draft: false
+template: 'post'
+slug: '/life/family-life'
+category: 'Life'
 tags:
+  - 'Raw'
   - 'Family'
-  - 'My life'
-  - 'Personal shit'
-  - 'Conscientiousness'
 description: 'This is mainly about a chat I had with my mum today. It got quite real.'
 ---
 
@@ -81,13 +79,3 @@ Though, the thing was that my mother knew all these things. She built her career
 But her fear to speak up, or the real truth, her inability to. This lead to these lessons being a part of my inner thought rather than the thoughts and words that I lived by. I had to go through life and unearth these thoughts from the depths of my mind. I've struggled to turn them into words, and beyond that, into actions. And, it's still something I am fighting to turn into reality.
 
 But, history speaks for itself. I better feed it the right words.
-
-## What a word: [Conscientiousness](https://www.youtube.com/watch?v=q15eTySnWxc)
-
-> Conscientiousness is the best predictor of long-term life success across multiple domains (including academic and managerial/administrative performance). It breaks down into two aspects: industriousness and orderliness. Industrious people are hard-working, attentive and focused. Orderly people like things where they belong, and are concerned with preserving the integrity of the borders between things. We don't know much about the psychological basis of industriousness. Orderliness, however, appears to be associated with disgust sensitivity, with the "behavioral immune system," and is in all probability elevated in geographical locales where infectious disease is prevalent. It is also a good predictor of political conservatism. When disgust sensitivity gets out of hand, too much cleansing (ethnic and otherwise) becomes increasingly possible.
-
-## [Physics world weekly](https://physicsworld.com/l/audio/)
-
-## [Physical attraction](http://www.physicalattraction.libsyn.com/)
-
-## [The first novel written by AI](https://singularityhub.com/2018/10/25/ai-wrote-a-road-trip-novel-is-it-a-good-read/#sm.00069qmis10ebdl7uan103cdtwnog)

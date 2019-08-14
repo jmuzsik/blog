@@ -5,7 +5,7 @@ image: "https://s3.amazonaws.com/thumbnails.illustrationsource.com/huge.5.27410.
 alt: "guy stacking boxes somehow symbolising a tutorial"
 draft: false
 slug: '/tutorials/create-and-deploy-create-react-app/'
-category: 'Javascript'
+category: 'Tutorials'
 tags:
   - 'Tutorial'
 description: 'I recently built an app utilising data from the WHO (World Health Organisation), the WikiQuotes API, Recharts, lots of CSS and JS, and, of course, passion for the subject. This will show you how to do it minutely.'

@@ -38,3 +38,67 @@ With `defer`, you have an exact execution order. And, all these files will be pa
 ## Avoid long running JavaScript
 
 This speaks for itself.
+
+### Use requestAnimationFrame for visual changes
+
+```js
+/**
+ * If run as a requestAnimationFrame callback, this
+ * will be run at the start of the frame.
+ */
+function updateScreen(time) {
+  // Make visual updates here.
+}
+
+requestAnimationFrame(updateScreen);
+```
+
+### Use Web Workers when you only have to run JS that does not alter the DOM (such as computations)
+
+Web Workers run off of the main thread.
+
+```js
+// var dataToSort = something computationally expensive to sort
+var dataSortWorker = new Worker('sort-worker.js');
+dataSortWorker.postMesssage(dataToSort);
+
+// The main thread is now free to continue working on other things...
+
+dataSortWorker.addEventListener('message', function(evt) {
+  var sortedData = evt.data; // evt.data is equal to dataToSort
+  // Update data on screen...
+});
+```
+
+- Note: Web workers do not have DOM access but browsers are working on allowing them to.
+
+### Separate code into micro-tasks
+
+```js
+var taskList = breakBigTaskIntoMicroTasks(monsterTaskList);
+requestAnimationFrame(processTaskList);
+
+/**
+ * @param {DOMHighResTimeStamp - Double} taskStartTime
+ *  - This is basically the same as if performance.now() was passed when the function was run
+ */
+function processTaskList(taskStartTime) {
+  var taskFinishTime;
+
+  do {
+    // Assume the next task is pushed onto a stack.
+    var nextTask = taskList.pop();
+
+    // Process nextTask.
+    processTask(nextTask);
+
+    // Go again if there's enough time to do the next task.
+    taskFinishTime = window.performance.now();
+    // Only 3 ms?
+  } while (taskFinishTime - taskStartTime < 3);
+
+  if (taskList.length > 0) requestAnimationFrame(processTaskList);
+}
+```
+
+- This will allow blocks of JS (that affects the DOM) to run one at a time for each frame (there are 60 frames per second) to prevent jank from occurring on the screen.

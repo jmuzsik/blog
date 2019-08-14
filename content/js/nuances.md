@@ -1,8 +1,8 @@
 ---
 title: JavaScript Nuances
 template: 'post'
-image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-alt: "javascript logo"
+image: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'
+alt: 'javascript logo'
 draft: false
 slug: '/js/nuances'
 category: 'Javascript'
@@ -57,3 +57,9 @@ const nextSibling = el.nextSibling;
 
 - Cache created DOM nodes, and use them as a pool of pre-assembled elements you can put back in the page as needed.
   - So if for whatever reason you need to create lots of elements for common use cases, cache these elements, be prepared in a way? I wonder what React does
+
+## Cooperative Scheduling of Background Tasks
+
+This specification is focused on running background tasks when the browser is idle. At a time separate from the event loop to ensure that the tasks don't impact latency-critical events such as animation and input response.
+
+> Examples of background tasks include recording analytics data, long running data processing operations, client-side templating and pre-rendering of content likely to become visible in the near future.

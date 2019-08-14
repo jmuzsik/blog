@@ -1,14 +1,13 @@
 ---
-title: Background Tasks API and last night's dream
-template: 'draft'
-draft: true
-slug: '/posts/7-29-19/'
+title: Background Tasks API
+template: 'post'
+draft: false
+slug: '/js/background-tasks'
 category: 'Background Tasks API'
 tags:
-  - 'Background Tasks API'
-  - 'Dreams'
-  - 'Project'
-description: 'This is a repost of what I just wrote for the website i am working on that looks at obscure parts of web development. This is about the Background Tasks API. I also had a strange dream last night. So i wrote a bit about that.'
+  - 'Browser APIs'
+  - 'Performant Javascript'
+description: 'This is a repost of what I just wrote for the website i am working on that looks at obscure parts of web development. This is about the Background Tasks API.'
 ---
 
 ## Background Tasks API
@@ -59,27 +58,3 @@ And here is the rest of the code. It uses `lit-element` which I will likely expl
 - FYI if you look at the code below. You'll notice that `requestIdleCallback` is either the `window` version (if it is supported) or a backup version (for unsupported browsers). It's just a timeout, and may not work... haven't tested it.
 
 <iframe frameborder=0 scrolling="no" seamless="seamless" srcdoc='<html><body><style type="text/css">.gist .gist-data { height: 400px; }</style><script src="https://gist.github.com/jMuzsik/535e60966e77e1325ed62e6d3b0b7ca9.js"></script></body></html>'></iframe>
-
-## Dream
-
-### What I wrote when I awoke
-
-Creation of experiences, emotional states, directly from memory.
-
-- images, words can be conjured
-- infer situations
-- you can view yourself dreaming
-
-I dreamt that I was awake, trying to write this but a white ghostlike element was crying towards me, awaking me.
-
-Before awakening I heard what sounded like the beginning of a song. A very high pitched, but rhythmic song. I heard the sound of my name, J, the j sound. Like a tune, ...
-
-- Can't read the rest.
-
-### What I remember now
-
-I do not remember what preluded the dream. I know that I was only sleeping for around 30 minutes. I know my mind was racing and the dream was vivid. But what I remember is the waking dream. The time when you see yourself dreaming. Which is defined as lucid dreaming. But, my eyes were open while I was dreaming. I was looking out into the room. But, the sounds of dreams were still filling my mind. I heard voices and that sound when things are rushing towards you. And, I directed my mind to thoughts of premonition. I remember continually thinking that someone would walk into the room. Like something was gonna happen. I conjured what appeared to be a ghost and it flew at me. It sang towards me. What appeared to be the j sound, high pitched as mentioned earlier. I remember that while dreaming I had this idea, and I felt a need to write, as mentioned above.
-
-### But what is this idea?
-
-It was simple. It was me telling myself that a dreamlike state could be created. I was thinking that it was easy, it appears. The memory creates experiences and emotional states. But, I must have had a deeper thought then that. Perhaps not. I believe the real thought was before the lucid dreaming. As I had a sudden desire to awake. There was an excitement. This world of thought must be thanks to `Let the Great World Spin`.

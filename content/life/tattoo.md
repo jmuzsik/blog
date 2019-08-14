@@ -2,8 +2,8 @@
 title: Tattoo
 date: '2019-07-26'
 draft: true
-slug: '/posts/7-26-19/'
-category: 'Tattoo'
+slug: '/life/tattoo'
+category: 'Life'
 tags:
   - 'Tattoo'
 description: 'Just a short post about my one and only tattoo.'
@@ -19,7 +19,7 @@ I wholeheartedly believe, as the essence of what we root from cannot be explaine
 
 Will we find an explanation? Will we find how The Big Bang occurred? I do not think so. This idea that everything needs a beginning is human. It is part of our assumptions of reality. As all of our experiences are based on there being a beginning to occurrences. Also, that is the law of our universe. Ever since The Big Bang occurred. **Matter spewed out. Matter coagulated. Matter turned into globs, globs became galaxies containing stars, et al.** There are beginnings and ends.
 
-It's not only about the idea of a beginning and end, there are many parts of this universe we do not even understand. There is dark energy and dark matter. We do understand the universe we live in. 
+It's not only about the idea of a beginning and end, there are many parts of this universe we do not even understand. There is dark energy and dark matter. We do understand the universe we live in.
 
 And to talk about the state of being human. We know we are human. We have thoughts and beliefs and ideas. There is metaphysics and consciousness, which we often do not attribute to material constraints. But back to The Big Bang.
 
@@ -39,24 +39,24 @@ And the poem that the tattoo artist connected to it:
 
 ```
 Everything
-Turns, 
-Rotates, 
-Spins, 
-Circles, 
-Loops, 
-Pulsates, 
-Resonates, 
+Turns,
+Rotates,
+Spins,
+Circles,
+Loops,
+Pulsates,
+Resonates,
 And
 Repeats.
 
 Circles
-Of life, 
+Of life,
 Born from
 Pulses
-Of light, 
+Of light,
 Vibrate
 To
-Breathe, 
+Breathe,
 While
 Spiraling
 Outwards
@@ -64,27 +64,13 @@ For
 Infinity
 Through
 The lens
-Of time, 
+Of time,
 And into
 A sea
 Of stars
 And
 Lucid
 Dreams.
-``` 
+```
 
 There is so much more to say, all I know is that a foundation has been built. I have the rest of my life to architect it.
-
-### Some side notes
-
-#### Composition of the universe
-
-> ~68% dark energy, ~27% dark matter, ~5% normal matter
-
-So wtheck is with that?
-
-> We are much more certain what dark matter is not than we are what it is. First, it is dark, meaning that it is not in the form of stars and planets that we see. Observations show that there is far too little visible matter in the universe to make up the 27% required by the observations. Second, it is not in the form of dark clouds of normal matter, matter made up of particles called baryons. We know this because we would be able to detect baryonic clouds by their absorption of radiation passing through them. Third, dark matter is not antimatter, because we do not see the unique gamma rays that are produced when antimatter annihilates with matter. Finally, we can rule out large galaxy-sized black holes on the basis of how many gravitational lenses we see. High concentrations of matter bend light passing near them from objects further away, but we do not see enough lensing events to suggest that such objects to make up the required 25% dark matter contribution.
-
-> However, at this point, there are still a few dark matter possibilities that are viable. Baryonic matter could still make up the dark matter if it were all tied up in brown dwarfs or in small, dense chunks of heavy elements. These possibilities are known as massive compact halo objects, or "MACHOs". But the most common view is that dark matter is not baryonic at all, but that it is made up of other, more exotic particles like axions or WIMPS (Weakly Interacting Massive Particles).
-
-Umm... I need to study more about this, as that is an unclear explanation by NASA

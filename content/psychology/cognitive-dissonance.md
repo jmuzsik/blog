@@ -1,17 +1,14 @@
 ---
 title: Cognitive Dissonance
-template: 'draft'
-draft: true
-slug: '/posts/cognitive-dissonance/'
+template: 'post'
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Smi32neuron.jpg/500px-Smi32neuron.jpg'
+alt: 'SMI32-stained pyramidal neurons in cerebral cortex'
+draft: false
+slug: '/psychology/cognitive-dissonance/'
 category: 'Psychology'
 tags:
-  - 'Learning'
-  - 'Psychology'
-  - 'Neuroscience'
-  - 'What am I really?'
-  - 'Predictive Dissonance Model'
-
-description: 'Today I focused on learning about Cognitive Dissonance in an attempt to better understand who I am and where my actions stem from. To, kind of, sum it up, I have predictions (in my mind) which are proven wrong or right by external stimuli. What I do day by day, is alter these predictions... hopefully for the better.'
+  - 'Cognitive Dissonance'
+description: 'An attempt to better understand who I am and where my actions stem from.'
 ---
 
 ## TL;DR
