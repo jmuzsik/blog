@@ -3,8 +3,10 @@ title: The New Moon Theory
 template: 'post'
 draft: false
 slug: '/physics/new-moon-theory'
+category: 'Physics'
 tags:
   - 'Astrophysics'
+  - 'Lots of stuff'
   - 'Physics'
 description: 'The prevalent theory as to how the moon was created - A synestia.'
 ---

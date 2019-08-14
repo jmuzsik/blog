@@ -36,7 +36,7 @@ function shuffle(array) {
 const CategoriesListTemplate = () => {
   const { title, subtitle } = useSiteMetadata();
   const categories = useCategoriesList();
-  const shuffledCategories = shuffle(categories);
+  // shuffle(categories);
 
   return (
     <React.Fragment>

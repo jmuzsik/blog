@@ -1,6 +1,6 @@
 ---
 title: Stuff
-date: '2019-07-26'
+template: 'post'
 draft: false
 slug: '/physics/stuff'
 category: 'Physics'

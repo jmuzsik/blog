@@ -11,18 +11,16 @@ function getImage(category) {
     if (!imageToGet && !altToGet && image && alt) {
       imageToGet = image;
       altToGet = alt;
-    }
+    } 
   });
   return [imageToGet, altToGet];
 }
 
 const List = ({ categories }) => {
-  console.log('hola')
   return (
     <ul className={styles['list']}>
       {categories.map(category => {
         const [image, alt] = getImage(category);
-        console.log(category)
         return (
           <li key={category.fieldValue} className={styles['list__item']}>
             <Link
