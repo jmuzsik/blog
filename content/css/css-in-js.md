@@ -6,7 +6,8 @@ slug: '/technologies/css-in-js'
 category: 'CSS'
 tags:
   - 'CSS Philosophy'
-description: 'The JAMstack is not about specific technologies. It’s a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience.'
+  - 'CSS-in-JS'
+description: 'Wth is with css in js?'
 ---
 
 ## There is distrust for it in my mind

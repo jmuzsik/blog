@@ -2,16 +2,17 @@
 title: A Space Adventure Introducing Python
 template: 'post'
 draft: false
-slug: '/languages/space-adventure-introducing-python/'
+slug: '/languages/space-adventure-introducing-python'
 category: 'Languages'
 tags:
   - 'Python'
+  - 'Real article'
 description: 'This article is not targeting the absolute beginner. It is specifically for JS Developers or the like looking for a fun introduction to the incredibly popular programming language Python. Many concepts explained: multiple inheritance, list comprehensions, the basics, and peculiarities of the language. All code can instantly be copied/pasted into a repl, and there is a repl near the end of the article to look directly at.'
 ---
 
 <span style="initial-letter: 2">T</span>his article is not targeting the absolute beginner. It is specifically for JS Developers or the like looking for a fun introduction to the incredibly popular programming language Python. Many concepts explained: multiple inheritance, list comprehensions, the basics, and peculiarities of the language. All code can instantly be copied/pasted into a repl, and there is a repl near the end of the article to look directly at.
 
-### In a universe of 90328443435329598 alien beings. Two new beings came from the void…
+### In a universe of 90328443435329598 alien beings. Two new beings came from the void...
 
 ![Block of code background with python logo in front](https://cdn-images-1.medium.com/max/1600/1*P9UGX6-8d6sOBpHDi2oe3Q.png)
 

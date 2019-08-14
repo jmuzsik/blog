@@ -6,6 +6,8 @@ slug: '/projects/next-gen-images-react-7-09-19/'
 category: 'Projects'
 tags:
   - 'Next generation images'
+  - 'Projects'
+  - 'Real article'
 description: '"If Google says to do it, you should do it" - the intuition. If you use Googles Lighthouse Audit and have images on your application you will notice Google has been barking something new to us: Serve images in next-gen formats'
 ---
 

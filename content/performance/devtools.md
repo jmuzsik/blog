@@ -7,7 +7,8 @@ draft: false
 slug: '/performance/devtools'
 category: 'Performance'
 tags:
-  - 'Critical Rendering Path'
+  - 'Devtools'
+  - 'Performance'
 description: 'Things to utilise in the devtools for performance.'
 ---
 

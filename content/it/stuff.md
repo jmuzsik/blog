@@ -7,6 +7,8 @@ category: 'Internet Technology'
 tags:
   - 'Stuff'
   - 'AWS'
+  - 'Lots of stuff'
+  - 'IT'
 description: 'A bunch of stuff about IT.'
 ---
 

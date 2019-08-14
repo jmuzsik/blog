@@ -6,6 +6,7 @@ slug: '/performance/performant-images'
 category: 'Performance'
 tags:
   - 'Performant Images'
+  - 'Performance'
 description: 'Ways to optimise images to properly interact with browsers.'
 ---
 

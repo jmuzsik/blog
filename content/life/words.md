@@ -6,7 +6,8 @@ draft: false
 slug: '/life/micro-progress'
 category: 'Life'
 tags:
-  - 'Micro Progress'
+  - 'Words'
+  - 'Life'
 description: 'Learn what you are passionate about.'
 ---
 

@@ -8,6 +8,7 @@ tags:
   - 'Human Relations'
   - 'Soft Skills'
   - 'Culture'
+  - 'Life'
 description: 'A focus on the soft-skill type of things.'
 ---
 

@@ -6,6 +6,7 @@ slug: '/performance/rail-model'
 category: 'Performance'
 tags:
   - 'RAIL'
+  - 'Performance'
 description: 'About the RAIL model for performance.'
 ---
 

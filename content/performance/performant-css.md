@@ -6,6 +6,7 @@ slug: '/performance/css'
 category: 'Performance'
 tags:
   - 'Performant CSS'
+  - 'Performance'
 description: 'Ways to write more responsive CSS.'
 ---
 

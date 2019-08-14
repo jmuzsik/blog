@@ -5,6 +5,7 @@ draft: false
 slug: '/physics/new-moon-theory'
 tags:
   - 'Astrophysics'
+  - 'Physics'
 description: 'The prevalent theory as to how the moon was created - A synestia.'
 ---
 

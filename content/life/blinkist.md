@@ -6,6 +6,7 @@ slug: '/life/blinkist'
 category: 'Life'
 tags:
   - 'Books'
+  - 'Life'
 description: 'Listened to a bunch of books, randomly took notes on a few.'
 ---
 

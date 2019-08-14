@@ -8,6 +8,7 @@ slug: '/web-component/maybe-useful'
 category: 'Web Components'
 tags:
   - 'Web Component stuff'
+  - 'Web Components'
 description: 'Some stuff that may be useful in the future.'
 ---
 

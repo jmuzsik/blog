@@ -7,7 +7,8 @@ draft: false
 slug: '/tutorials/create-and-deploy-create-react-app/'
 category: 'Tutorials'
 tags:
-  - 'Tutorial'
+  - 'Tutorials'
+  - 'Real article'
 description: 'I recently built an app utilising data from the WHO (World Health Organisation), the WikiQuotes API, Recharts, lots of CSS and JS, and, of course, passion for the subject. This will show you how to do it minutely.'
 ---
 

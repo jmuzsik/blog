@@ -6,6 +6,7 @@ slug: '/web-component/nuances'
 category: 'Web Components'
 tags:
   - 'Web Component Nuances'
+  - 'Web Components'
 description: 'Some nuances about web components.'
 ---
 

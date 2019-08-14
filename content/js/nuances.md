@@ -8,6 +8,8 @@ slug: '/js/nuances'
 category: 'Javascript'
 tags:
   - 'Nuances'
+  - 'Javascript'
+  - 'Lots of stuff'
 description: 'Some nuances of JS to be updated occasionally.'
 ---
 

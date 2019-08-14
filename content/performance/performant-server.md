@@ -6,6 +6,7 @@ slug: '/performance/performant-server'
 category: 'Performance'
 tags:
   - 'Performant Server'
+  - 'Performance'
 description: 'Ways to optimise the server to properly interact with browsers.'
 ---
 

@@ -6,6 +6,7 @@ slug: '/life/tattoo'
 category: 'Life'
 tags:
   - 'Tattoo'
+  - 'Life'
 description: 'Just a short post about my one and only tattoo.'
 ---
 

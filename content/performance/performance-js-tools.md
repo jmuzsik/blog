@@ -6,6 +6,7 @@ slug: '/performance/performance-js-tools'
 category: 'Performance'
 tags:
   - 'Tools'
+  - 'Performance'
 description: 'Tools to measure page performance with JS.'
 ---
 

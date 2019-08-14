@@ -2,10 +2,13 @@
 title: AWS Lessons
 draft: false
 template: 'post'
+image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwWNzquHKlHnG3BmQ1iRclZ5hgw53CdA-Efm1NrDpuDr5SV48i'
+alt: 'server farm'
 slug: '/it/aws-lessons'
 category: 'Internet Technology'
 tags:
   - 'AWS'
+  - 'IT'
 description: 'Notes on blog posts or the like that describe AWS in a very high level way.'
 ---
 
@@ -25,11 +28,12 @@ description: 'Notes on blog posts or the like that describe AWS in a very high l
 
 Elasticity
 
-- the ability to grow or shrink infrastructure as sthe demand for your service changes
+- the ability to grow or shrink infrastructure as the demand for your service changes
 
 Availability
 
-- the ability to sustain failure of, say, an availability zone or a region without impacting user experience
+- the ability to sustain failure of, say, an availability
+  zone or a region without impacting user experience
 
 ##### Principle
 
@@ -41,7 +45,7 @@ Availability
 
 ##### How to solve
 
-Use [Memcached](http://memcached.org/) or [Redis](https://redis.io/) depending on the structure of your object and performancew requirenments.
+Use [Memcached](http://memcached.org/) or [Redis](https://redis.io/) depending on the structure of your object and performance requirements.
 
 - doing this, any new instance of the backend app will be able to get the previous state of the app from the cache to continue on
 
@@ -51,7 +55,7 @@ So:
 
 ##### [Transient state](https://en.wikipedia.org/wiki/Transient_state)
 
-A system is in transient state when a process variable or variables have beenn changed and the system has not yet reached a steady state.
+A system is in transient state when a process variable or variables have been changed and the system has not yet reached a steady state.
 
 Examples in code:
 
@@ -90,7 +94,7 @@ Immutable components are replaced for every deployment, rather than being update
 
 ##### if using Docker
 
-2.  Create base container with libraries and dependenices and store it in your container hub
+2.  Create base container with libraries and dependencies and store it in your container hub
 3.  Create an as-light-as-possible `Dockerfile`
 4.  Copy code on build into Docker Container
 5.  Deploy container to base AMI
@@ -103,14 +107,14 @@ Immutable components are replaced for every deployment, rather than being update
 5.  Deploy to prod (inactive)
 6.  Add new reference (DNS or Load Balancer)
 7.  Allow traffic flow slowly to new version (start with 5% and ramp up)
-8.  Keep old version around until new version is 100% and you are fully satisfied with the behaviour
+8.  Keep old version around until new version is 100% and you are fully satisfied with the behavior
 9.  Fast rollback if things go wrong
 
 ### Infrastructure as code
 
-[AWS CloudFormation](https://aws.amazon.com/cloudformation/) provides the common language (JSON or YAML) for you to describe and provision all the infrasture resources needed.
+[AWS CloudFormation](https://aws.amazon.com/cloudformation/) provides the common language (JSON or YAML) for you to describe and provision all the infrastructure resources needed.
 
-- deploy a datacenter simply by writing JSON or YAML
+- deploy a data-center simply by writing JSON or YAML
 
 #### Offers
 
@@ -130,7 +134,7 @@ Immutable components are replaced for every deployment, rather than being update
 ##### Benefits
 
 - saves resources on the API backend and gives faster responses to the client
-- optimises workers for different tasks
+- optimizes workers for different tasks
 - decoupling
 - retries
 - etc.
@@ -172,10 +176,10 @@ Immutable components are replaced for every deployment, rather than being update
 #### Why use NoSQL?
 
 - super low latency applications
-- metadata driven datasets
+- metadata driven data-sets
 - highly non-relational data
 - need schema-less data constructs (needs != its easy to do devs without schemas)
-- rapid ingest of (unstructures) data (thousands of records/sec)
+- rapid ingest of (unstructured) data (thousands of records/sec)
 - Massive amount of data ( in the TB+ range)
 
 #### back in action
@@ -183,12 +187,12 @@ Immutable components are replaced for every deployment, rather than being update
 Assuming you have a clear [data domain](https://en.wikipedia.org/wiki/Data_domain), you're not using anti-patterns, and that you have decoupled the database layer from the business layer then do this:
 
 1.  Splitting Reads and Writes
-    - push all 'write' operations to the maste instance and all the 'reads' to the [read replicas](https://aws.amazon.com/rds/details/read-replicas/)
+    - push all 'write' operations to the master instance and all the 'reads' to the [read replicas](https://aws.amazon.com/rds/details/read-replicas/)
 2.  Database Federation
-    - each db in the federationn is self-sustained and independent to spread the load btw instances.
+    - each db in the federation is self-sustained and independent to spread the load btw instances.
 3.  Database Sharding (horizontal or range partitioning)
     - selects a partition by determining if the partitioning key is within a certain range
-      - Each shard is located on a seperate instance to spread the load based upon the partition
+      - Each shard is located on a separate instance to spread the load based upon the partition
 
 #### or use
 
@@ -227,7 +231,7 @@ You should also measure
 #### How do you nurture this culture?
 
 - make it easy
-- use [python decorators](https://realpython.com/blog/python/primer-on-python-decorators/) to do so on the applicationn level
+- use [python decorators](https://realpython.com/blog/python/primer-on-python-decorators/) to do so on the application level
   - don't forget to setup alarms and escalation path once you have measurements in place
 
 #### Details
@@ -348,7 +352,7 @@ Manage servers properly
 
 The best you can do when it comes to building scalable infrastructure is think about design principals while building your app so it wont be too much work to get going when it's finally time to scale.
 
-#### Containerisation
+#### Containerization
 
 - Allow configuration of your app via environment variables. Things like database info and initial admin username/password will go a long way when it comes to building a CI/CD pipeline and automating your app deployment.
 - Keep as much state out of your container as possible. This will allow for stateless deployments via tools like Kubernetes.

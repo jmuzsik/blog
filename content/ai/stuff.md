@@ -8,6 +8,7 @@ slug: '/ai/stuff'
 category: 'AI'
 tags:
   - 'AI Stuff'
+  - 'Art'
 description: 'Some stuff about AI.'
 ---
 
@@ -52,7 +53,6 @@ http://www.miketyka.com/
 http://genekogan.com/works
 
 http://quasimondo.com/
-
 #### [abraham.ai](http://abraham.ai/)
 
 The speaker is trying to create a collective intelligence, a hive mind of human creativity.

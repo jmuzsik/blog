@@ -6,6 +6,7 @@ slug: '/web-component/pwa-starter-kit'
 category: 'Web Components'
 tags:
   - 'PWA Starter Kit'
+  - 'Web Components'
 description: 'Some notes on PWA Starter Kit.'
 ---
 

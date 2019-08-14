@@ -6,6 +6,7 @@ slug: '/performance/7-14-19/'
 category: 'Performance'
 tags:
   - 'Performance Tools'
+  - 'Performance'
 description: 'The ideas/concepts to think about when making the corresponding decision.'
 ---
 

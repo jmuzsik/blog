@@ -1,11 +1,12 @@
 ---
 title: Rendering Performance
 template: 'post'
-draft: false
+draft: true
 slug: '/performance/user-perception'
 category: 'Performance'
 tags:
   - 'User perception'
+  - 'Performance'
 description: 'A little about user perception of performance.'
 ---
 

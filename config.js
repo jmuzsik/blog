@@ -10,7 +10,7 @@ module.exports = {
   postsPerPage: 6,
   menu: [
     {
-      label: 'Sets',
+      label: 'Categories',
       path: '/'
     },
     {

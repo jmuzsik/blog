@@ -8,6 +8,7 @@ slug: '/css/nuances'
 category: 'CSS'
 tags:
   - 'Nuances'
+  - 'CSS'
 description: 'Some CSS nuances to update from time to time.'
 ---
 

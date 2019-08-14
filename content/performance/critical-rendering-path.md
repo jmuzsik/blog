@@ -8,6 +8,7 @@ slug: '/performance/critical-rendering-path'
 category: 'Performance'
 tags:
   - 'Critical Rendering Path'
+  - 'Performance'
 description: 'The path from code to a real page.'
 ---
 

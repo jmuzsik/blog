@@ -6,7 +6,7 @@ slug: '/life/dreams'
 category: 'Life'
 tags:
   - 'Dreams'
-  - 'Family'
+  - 'Life'
 description: 'A variety of dreams.'
 ---
 

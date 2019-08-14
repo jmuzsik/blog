@@ -6,6 +6,7 @@ slug: '/performance/rendering-performance'
 category: 'Performance'
 tags:
   - 'User perception'
+  - 'Performance'
 description: 'A little about rendering performance.'
 ---
 

@@ -8,6 +8,8 @@ slug: '/projects/find-an-Issue/'
 category: 'Projects'
 tags:
   - 'Open Source'
+  - 'Real article'
+  - 'Projects'
 description: 'When I began the transition into being a software developer, I knew that contributing to open source projects would greatly assist my job…'
 ---
 

@@ -6,6 +6,8 @@ slug: '/physics/stuff'
 category: 'Physics'
 tags:
   - 'Astrophysics'
+  - 'Lots of stuff'
+  - 'Physics'
 description: 'Some stuff about physics that is too short for a full post.'
 ---
 

@@ -8,6 +8,7 @@ image: 'https://cdn.mos.cms.futurecdn.net/5QBcJGR3apmUVhouiZqKNL.jpg'
 alt: 'very fancy astrophysical picture'
 tags:
   - 'Astrophysics'
+  - 'Physics'
 description: 'Mercury is, on average, the closest planet to every other planet in the solar system.'
 ---
 

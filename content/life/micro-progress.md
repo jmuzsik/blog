@@ -8,6 +8,7 @@ slug: '/life/micro-progress'
 category: 'Life'
 tags:
   - 'Micro Progress'
+  - 'Life'
 description: 'Learn what you are passionate about.'
 ---
 

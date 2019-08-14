@@ -8,6 +8,7 @@ slug: '/technologies/jamstack'
 category: 'Technologies'
 tags:
   - 'Things to use'
+  - 'Technologies'
 description: 'The JAMstack is not about specific technologies. It’s a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience.'
 ---
 

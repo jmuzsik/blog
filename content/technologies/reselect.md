@@ -6,6 +6,7 @@ slug: '/technologies/reselect'
 category: 'Technologies'
 tags:
   - 'Reselect'
+  - 'Technologies'
 description: 'Some notes about what the redux reselect library is.'
 ---
 

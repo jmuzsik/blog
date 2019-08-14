@@ -6,6 +6,7 @@ slug: '/life/learning'
 category: 'Life'
 tags:
   - 'Learning'
+  - 'Life'
 description: 'Learning in general.'
 ---
 

@@ -5,8 +5,8 @@ template: 'post'
 slug: '/life/family-life'
 category: 'Life'
 tags:
-  - 'Raw'
   - 'Family'
+  - 'Life'
 description: 'This is mainly about a chat I had with my mum today. It got quite real.'
 ---
 

@@ -17,10 +17,12 @@ function getImage(category) {
 }
 
 const List = ({ categories }) => {
+  console.log('hola')
   return (
     <ul className={styles['list']}>
       {categories.map(category => {
         const [image, alt] = getImage(category);
+        console.log(category)
         return (
           <li key={category.fieldValue} className={styles['list__item']}>
             <Link

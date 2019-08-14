@@ -8,6 +8,7 @@ slug: '/science/silurian-hypothesis'
 category: 'General Science'
 tags:
   - 'Silurian Hypothesis'
+  - 'Science'
 description: 'A little bit about the Silurian Hypothesis.'
 ---
 

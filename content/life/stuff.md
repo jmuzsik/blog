@@ -5,7 +5,7 @@ template: 'post'
 slug: '/life/stuff'
 category: 'Life'
 tags:
-  - 'Stuff'
+  - 'Lots of stuff'
   - 'Tasks'
 description: 'Stuff about life.'
 ---
@@ -30,7 +30,7 @@ description: 'Stuff about life.'
 3. Let others do it
    - Often, the finishing of a task can be done by those other than yourself. So, you can decide to take this task into your own hands or allow others to accomplish it. But, when another is working on this task, and we have no control over it being finished the thoughts that we have are generally related to the time it is taking for this person to accomplish this task. Patience is the best trait in this way.
 4. Do it together
-   - This relates to doing a task with others simultaneously. Teamwork. Patience and effort at the same time. You immerse youreself in the accomplishing of the task and you patiently wait simultaneously.
+   - This relates to doing a task with others simultaneously. Teamwork. Patience and effort at the same time. You immerse your self in the accomplishing of the task and you patiently wait simultaneously.
 
 ### Anchor points
 

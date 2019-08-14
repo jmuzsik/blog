@@ -6,6 +6,7 @@ slug: '/performance/the-cost-of-javascript'
 category: 'Performance'
 tags:
   - 'Performant JS'
+  - 'Performance'
 description: 'Mainly notes on The Cost of Javascript in 2019 by Addy Osmani which was oddly quite small. And, a quirky little thing about Larry Page.'
 ---
 

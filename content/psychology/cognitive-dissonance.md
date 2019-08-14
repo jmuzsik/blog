@@ -8,6 +8,7 @@ slug: '/psychology/cognitive-dissonance/'
 category: 'Psychology'
 tags:
   - 'Cognitive Dissonance'
+  - 'Psychology'
 description: 'An attempt to better understand who I am and where my actions stem from.'
 ---
 

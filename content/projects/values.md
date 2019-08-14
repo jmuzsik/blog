@@ -6,6 +6,7 @@ slug: '/projects/values'
 category: 'Projects'
 tags:
   - 'Values'
+  - 'Projects'
 description: 'A WIP project about values that companies have.'
 ---
 

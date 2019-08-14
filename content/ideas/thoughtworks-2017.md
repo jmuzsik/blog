@@ -8,6 +8,8 @@ slug: '/ideas/thoughtworks-2017'
 category: 'Ideas'
 tags:
   - 'Thoughtworks'
+  - 'Ideas'
+  - 'Lots of stuff'
 description: 'Notes on thoughtworks 2017 review.'
 ---
 

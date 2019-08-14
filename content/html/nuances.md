@@ -8,6 +8,7 @@ slug: '/html/nuances'
 category: 'HTML'
 tags:
   - 'Nuances'
+  - 'HTML'
 description: 'Some HTML nuances to updated here and there.'
 ---
 

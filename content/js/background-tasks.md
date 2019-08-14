@@ -3,10 +3,11 @@ title: Background Tasks API
 template: 'post'
 draft: false
 slug: '/js/background-tasks'
-category: 'Background Tasks API'
+category: 'Javascript'
 tags:
   - 'Browser APIs'
   - 'Performant Javascript'
+  - 'Javascript'
 description: 'This is a repost of what I just wrote for the website i am working on that looks at obscure parts of web development. This is about the Background Tasks API.'
 ---
 

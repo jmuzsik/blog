@@ -8,6 +8,9 @@ slug: '/cs/understanding-program/'
 category: 'Computer Science'
 tags:
   - 'C Languages'
+  - 'Langauges'
+  - 'CS'
+  - 'Real article'
 description: 'I began learning to program in the middle of 2017. I had no idea what it was. Applications and websites, their creation made no sense to me. Here is a chronological progression of my understanding explained with simplicity.'
 ---
 

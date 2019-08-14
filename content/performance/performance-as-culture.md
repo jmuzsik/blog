@@ -6,6 +6,7 @@ slug: '/performance/think-fast-first'
 category: 'Performance'
 tags:
   - 'Talks'
+  - 'Performance'
 description: 'Notes at a talk at a meetup about creating a performance minded culture.'
 ---
 

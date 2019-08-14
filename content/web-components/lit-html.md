@@ -8,6 +8,7 @@ slug: '/web-component/lit-html'
 category: 'Web Components'
 tags:
   - 'Lit HTML'
+  - 'Web Components'
 description: 'Some notes on Lit HTML.'
 ---
 

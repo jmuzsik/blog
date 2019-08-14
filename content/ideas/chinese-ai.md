@@ -1,14 +1,13 @@
 ---
 title: AI in China And Yang
 template: 'post'
-image: "http://static2.stuff.co.nz/1553761468/364/23333364.jpg"
-alt: "homer with arms up"
 draft: false
-slug: '/skits/chinese-ai'
-category: 'Skit'
+slug: '/ideas/chinese-ai'
+category: 'Ideas'
 tags:
-  - 'Skit'
+  - 'AI'
   - 'Andrew Yang'
+  - 'Joke'
 description: 'An idea for a silly skit which does not sound as good as it sounded in my head and stuff about Yang.'
 ---
 
@@ -24,7 +23,6 @@ Why is China spending a [ton of money on AI](https://www.marketwatch.com/story/c
 2. Look around the room, point out an Asian person, and if she/he looks from China or the like, say that they are in in this prophesy. They know this is gonna happen.
 3. Point out that the world will still run fine as in every city there is a giant population of skilled asians that can run the cities.
 4. When aliens come to the earth, they'll see this homogeneous society.
-
 
 This sounded funnier in my head. Think it has promise if the right words are put in place. The premise is sort of like a thought in the back of everyone's head, as we all wonder when or if there will be a major war between these new superpowers sometime in the future. It roots from Battledecks at Manhattan JS when I got on stage and they put slides for me to do with the beginning premise "The Rise of China" and wondering about the new candidate Yang.
 

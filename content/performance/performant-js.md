@@ -6,6 +6,7 @@ slug: '/performance/performant-js'
 category: 'Performance'
 tags:
   - 'Performant Javascript'
+  - 'Performance'
 description: 'Ways to help browsers more quickly load JS.'
 ---
 
