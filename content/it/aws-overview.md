@@ -17,7 +17,7 @@ Services:
 - Break application down to services
 - IaaS, PaaS, SaaS, SOA, FaaS, BaaS
 
-**Serverless** - abstract away the management of infastructure from development - one does not have to manage the server theireselves
+**Serverless** - abstract away the management of infrastructure from development - one does not have to manage the server their selves
 
 Give code to the serverless provider (docker, aws) and say run it whenever the customer needs something
 
@@ -36,7 +36,7 @@ Give code to the serverless provider (docker, aws) and say run it whenever the c
 
 ### Services
 
-#### Infastructure as a Service (IAAS)
+#### Infrastructure as a Service (IAAS)
 
 - Host OS on the cloud that is unique to you
 
@@ -51,7 +51,7 @@ Give code to the serverless provider (docker, aws) and say run it whenever the c
 
 #### Functions as a service (FAAS)
 
-- similar to utilising github repos that do something you want within your code but not write yoruself
+- similar to utilising github repo's that do something you want within your code but not write yourself
 
 ## Overview of many of the microservices:
 
@@ -65,11 +65,11 @@ Give code to the serverless provider (docker, aws) and say run it whenever the c
 
 **VPC**: virtual private cloud
 
-- a virtual data center to depoloy assets
+- a virtual data center to deploy assets
 
 **Route53**: DNS service
 
-- used to look up specific urls, public ip adresses
+- used to look up specific urls, public ip addresses
 - used on port 53, route 66 reference
 
 **Cloud Front**: consists of edge locations to cache your data
@@ -149,7 +149,7 @@ Elastic Search: uses open-source
 
 - both are used for search within your applications
 
-**Kinesis:** to stream and alalyse real-time data on a massive scale
+**Kinesis:** to stream and analyse real-time data on a massive scale
 
 **Data-pipeline:** allows you to use data from one place to another
 
@@ -221,7 +221,7 @@ Elastic Search: uses open-source
 
 **WorkDocs:** used to securely store important work documents
 
-**WorkMail:** sending/recieving email
+**WorkMail:** sending/receiving email
 
 **iOT:** way to have countless devices out there and keeping track of them
 
@@ -235,8 +235,8 @@ Elastic Search: uses open-source
 
 **Rekognition:** can upload a picture and tell you what's in the picture, analyses it and tells you what is in it
 
-**SNS** - simple notification services: to noticy you by email or text messages
+**SNS** - simple notification services: to notify you by email or text messages
 
 **SQS:** decouples application to not have tightly coupled dependencies
 
-**SES** - simple email service: way to send/recieve emails with AWS
+**SES** - simple email service: way to send/receive emails with AWS

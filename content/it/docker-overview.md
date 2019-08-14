@@ -38,8 +38,8 @@ _Side note:_ Every time an image is created it is cached so it is not downloaded
 
 **dangling image:** if you alter a dockerfile after it has been built and then you recreated the image with the same exact name the old one loses its name but `is not deleted` while the new one is created with the name specified
 
-- Bascically, the cache goes downward.
-- So, if something is altered in the configuration, from that point on everything will be redownloaded.
+- Basically, the cache goes downward.
+- So, if something is altered in the configuration, from that point on everything will be re-downloaded.
 - So, if you add something new or think something may be altered in the future, add it at/near the end!
 
 ### Docker commands
@@ -87,7 +87,7 @@ If you want run multiple copies of a single app, say MySQL, you use a container.
 
 #### Ease of use
 
-- anyone can package an app on their laptop which can run unmodifid on any public cloud, private cloud, or even bare metal
+- anyone can package an app on their laptop which can run unmodified on any public cloud, private cloud, or even bare metal
   - "build once, run anywhere"
 
 #### Speed
@@ -167,7 +167,7 @@ _Net_:
 
 _PID_:
 
-- Stands for process ID. Gives containers their own scoped view of processes they can view and interat with.
+- Stands for process ID. Gives containers their own scoped view of processes they can view and interact with.
 
 _MNT_:
 
@@ -179,7 +179,7 @@ _UTS_:
 
 _IPC_:
 
-- Interprcess communication. Responsible for isolating IPC resources between processes running inside each container
+- Inter-process communication. Responsible for isolating IPC resources between processes running inside each container
 
 _USER_:
 
@@ -187,7 +187,7 @@ _USER_:
 
 ##### Control groups
 
-Linux kernel feature that isolates, priorises, and accounts for the resource usage (CPU, memory, disk I/O, etc) of a set of processes. SO docker containers only use resources they need and sets limits.
+Linux kernel feature that isolates, prioritises, and accounts for the resource usage (CPU, memory, disk I/O, etc) of a set of processes. SO docker containers only use resources they need and sets limits.
 
 ##### Isolated Union File System
 
@@ -205,7 +205,7 @@ as explained above
 
 #### Why not to use Docker
 
-1.  The many functional discrete parts creates a seperation of concerns that is difficult to manage
+1.  The many functional discrete parts creates a separation of concerns that is difficult to manage
 2.  Security is a problem because containers share the same kernel, so small barrier between containers (one is breached, the rest can easily be).
 
 ## Docker on AWS
@@ -214,13 +214,13 @@ as explained above
 
 #### Virtualisation (VM's)
 
-Division of physical computer and networking resources into smaller, more flexible units, presenting these smaller units to users as though each was a discrete resoure.
+Division of physical computer and networking resources into smaller, more flexible units, presenting these smaller units to users as though each was a discrete resource.
 
 - rather then assigning specific computing tasks to individual servers, a single server can be divided into as many virtual servers as needed.
 
 _Bare metal_ is when multiple apps are served through physical servers
 
-_virtualisation server_ is when mutliple apps are on one virtualised server
+_virtualisation server_ is when multiple apps are on one virtualised server
 
 ##### New servers can be provisioned at will on a virtualisation server
 
@@ -242,13 +242,13 @@ They are not hypervisors but are extremely lightweight virtual servers that shar
 #### Docker
 
 1.  Docker is easy because script friendly interface to create/automate/remotely manage complex clusters of containers deployed as microservices
-    - Microservices is a compute services architecture where multiple containers are deplyed each with a distinct yet complemenary role for the app at whole. (DB, file server, web server, etc)
+    - Microservices is a compute services architecture where multiple containers are deployed each with a distinct yet complementary role for the app at whole. (DB, file server, web server, etc)
 
 #### Docker container
 
 Is an image whose behavior is defined by a script.
 
-- image is a software file containing a snapshot of a full OS file system, ie: everytihng necessary to launch a viable virtual server
+- image is a software file containing a snapshot of a full OS file system, ie: everything necessary to launch a viable virtual server
   - looks as so: Ubuntu linux (OS) below MySQL below writable data layer
 
 ##### What do people commonly do with docker containers?
@@ -269,7 +269,7 @@ How often does one need to own their own servers? use the cloud
 
 Specifically configured EC2 instances as hosts for integrated Docker containers.
 
-- you can provision and administrate your containers throught the ECS framework
+- you can provision and administrate your containers through the ECS framework
 - Fargate mode option?
 
 ##### AWS CloudFormation
@@ -282,7 +282,7 @@ Can configure any combination of AWS resources into a template that can be deplo
 
 ##### AWS Elastic Beanstalk
 
-Sits on top of ECS. Allows you to deploy your app acroos all the AWS resources normally used by ECS, but with virtually all the logistics neatly abstracted away.
+Sits on top of ECS. Allows you to deploy your app across all the AWS resources normally used by ECS, but with virtually all the logistics neatly abstracted away.
 
 You need to use a `Dockerrun.aws.json` file can create your complex microservices environment.
 
@@ -302,7 +302,7 @@ A joint AWS/Docker project that provides customers with a more customizable inte
 
 GUI, browser based console for managing all aspects of Docker deployments.
 
-Includes administration for your host ndoes running in public clouds.
+Includes administration for your host nodes running in public clouds.
 
 ##### Docker Hub
 
@@ -381,7 +381,7 @@ Amazon's own image registry to go with their EC2 Container Service platform.
     - `docker run -d -p 80:80 name_of_container \ /usr/sbin/apache2ctl -D FOREGROUND`
       - this does something...
 
-- checking container's IP adress:
+- checking container's IP address:
   - `docker network inspect bridge` tells you where it is to open the server in your browser.
 
 ### Overview

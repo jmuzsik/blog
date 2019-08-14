@@ -2,8 +2,7 @@
 @import '../../assets/scss/mixins';
 
 .layout {
-  lost-column: 1;
+  height: auto;
   &__page {
-    height: 10000px;;
   }
 }

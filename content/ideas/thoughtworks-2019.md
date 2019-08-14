@@ -62,7 +62,7 @@ Why? It is entirely based on the Canvas API so performance is great.
 
 #### [Single-SPA](https://github.com/CanopyTax/single-spa)
 
-> a JavaScript metaframework that allows us to build micro frontends using different frameworks that can coexist in a single application
+> a JavaScript meta-framework that allows us to build micro frontend's using different frameworks that can coexist in a single application
 
 1. Contentful
    - A headless CMS.

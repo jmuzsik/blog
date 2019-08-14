@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 import Layout from '../components/Layout';
-import Sidebar from '../components/Sidebar';
+import Navbar from '../components/Navbar';
 import Page from '../components/Page';
 import Waves from '../components/Waves/Waves';
 import Tags from '../components/Tags/Tags';
@@ -14,7 +14,7 @@ const TagsListTemplate = () => {
   return (
     <React.Fragment>
       <Layout title={`Tags - ${title}`} description={subtitle}>
-        <Sidebar />
+        <Navbar />
         <Page title="Concepts">
           <Tags tags={tags} />
         </Page>

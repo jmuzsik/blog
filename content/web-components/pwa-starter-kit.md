@@ -63,7 +63,7 @@ Has several attributes that can be changed.
 
 ```js
 installMediaQueryWatcher(`(min-width: 600px)`, matches => {
-  console.log(matches ? 'wide screen' : 'narrow sreen');
+  console.log(matches ? 'wide screen' : 'narrow screen');
 });
 ```
 

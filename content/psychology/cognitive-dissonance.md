@@ -64,7 +64,7 @@ _Effect of the Severity of Threat on the Devaluation of Forbidden Behavior_
 
 #### Education
 
-A basic way to help students see their cognitive dissonance is to require them to defend their personal beliefs. Then, students are trained to percieve new facts and information, causing them to see the conflict between reality and their value system.
+A basic way to help students see their cognitive dissonance is to require them to defend their personal beliefs. Then, students are trained to perceive new facts and information, causing them to see the conflict between reality and their value system.
 
 #### Social behavior
 

@@ -1,6 +1,6 @@
 // @flow
 import React from 'react';
-import Sidebar from '../components/Sidebar';
+import Navbar from '../components/Navbar';
 import Layout from '../components/Layout';
 import Page from '../components/Page';
 import List from '../components/List';
@@ -36,12 +36,12 @@ function shuffle(array) {
 const CategoriesListTemplate = () => {
   const { title, subtitle } = useSiteMetadata();
   const categories = useCategoriesList();
-  // shuffle(categories);
+  shuffle(categories);
 
   return (
     <React.Fragment>
       <Layout title={`Categories - ${title}`} description={subtitle}>
-        <Sidebar />
+        <Navbar />
         <Page title="Categories">
           <List categories={categories} />
         </Page>

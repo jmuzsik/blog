@@ -1,5 +1,5 @@
 ---
-title: Thoughworks 2017
+title: Thoughtworks 2017
 template: 'post'
 image: 'https://upload.wikimedia.org/wikipedia/commons/4/4a/Plato-raphael.jpg'
 alt: 'plato doing plato things'

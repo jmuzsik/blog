@@ -2,7 +2,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import Sidebar from '../components/Sidebar';
+import Navbar from '../components/Navbar';
 import Feed from '../components/Feed';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
@@ -36,7 +36,7 @@ const TagTemplate = ({ data, pageContext }: Props) => {
   return (
     <React.Fragment>
       <Layout title={pageTitle} description={siteSubtitle}>
-        <Sidebar />
+        <Navbar />
         <Page title={tag}>
           <Feed edges={edges} />
           <Pagination

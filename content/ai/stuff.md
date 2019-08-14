@@ -16,7 +16,7 @@ description: 'Some stuff about AI.'
 
 - [How Google Maps knows which direction you are facing](https://ai.googleblog.com/2019/02/using-global-localization-to-improve.html)
 - [What are Symbolic and Imperative APIs in TensorFlow 2.0?](https://medium.com/tensorflow/what-are-symbolic-and-imperative-apis-in-tensorflow-2-0-dfccecb01021)
-- [Datasets for that random time when you decide to do this stuff](https://www.tensorflow.org/datasets)
+- [Data-sets for that random time when you decide to do this stuff](https://www.tensorflow.org/datasets)
 - [Learning GAN's - a form of generative art](https://www.tensorflow.org/beta/tutorials/generative/dcgan)
 - [Image to image translation](https://phillipi.github.io/pix2pix/)
 - [Glow - reversible generative models](https://openai.com/blog/glow/)

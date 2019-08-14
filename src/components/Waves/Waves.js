@@ -10,20 +10,6 @@ export default function Waves() {
         src="/sunset.png"
         alt="sunset for decorative purposes"
       />
-      <div className={styles['waves__clouds']}>
-        <div className={styles['waves__x1']}>
-          <div className={styles['waves__cloud']} />
-        </div>
-        <div className={styles['waves__x2']}>
-          <div className={styles['waves__cloud']} />
-        </div>
-        <div className={styles['waves__x4']}>
-          <div className={styles['waves__cloud']} />
-        </div>
-        <div className={styles['waves__x5']}>
-          <div className={styles['waves__cloud']} />
-        </div>
-      </div>
       <svg
         className={styles['waves__svg']}
         xmlns="http://www.w3.org/2000/svg"

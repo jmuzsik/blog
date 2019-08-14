@@ -8,7 +8,7 @@ tags:
   - 'Browser APIs'
   - 'Performant Javascript'
   - 'Javascript'
-description: 'This is a repost of what I just wrote for the website i am working on that looks at obscure parts of web development. This is about the Background Tasks API.'
+description: 'This is a re-post of what I just wrote for the website i am working on that looks at obscure parts of web development. This is about the Background Tasks API.'
 ---
 
 ## Background Tasks API

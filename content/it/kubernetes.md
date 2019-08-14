@@ -33,7 +33,7 @@ You do not need to worry about every instance you own. Gives "peace of mind".
 
 #### Clusters
 
-A network of containers connected in sucha way that they can freely communicate with each other.
+A network of containers connected in such a way that they can freely communicate with each other.
 
 #### Nodes
 
@@ -82,7 +82,7 @@ _Kubernetes Objects are persistent entities in the Kubernetes system. Kubernetes
 
 A group of one or more containers with shared storage/network and a specification for how to run the containers
 
-- reachable through an IP adress
+- reachable through an IP address
 
 #### Service
 
@@ -218,8 +218,8 @@ A program running is not guaranteed to run on a specific node so data cannot be 
 Persistent volumes store data permanently
 
 - File storage is not managed by the cluster
-  - So local or cloud drives attached to the cluster as Peristent Volume
-  - Basically, an external hard drive is plugged intot the cluster
+  - So local or cloud drives attached to the cluster as Persistent Volume
+  - Basically, an external hard drive is plugged into the cluster
 - **File system is mounted to the cluster without being associated to any particular node**
 
 ### Software

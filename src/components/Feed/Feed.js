@@ -19,6 +19,7 @@ const Feed = ({ edges }: Props) => {
             fields: { slug }
           }
         } = edge;
+        console.log(slug)
         let finalDescription = description;
         if (description.length > 70) {
           finalDescription = `${description.slice(0, 70)}...`;

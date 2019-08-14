@@ -52,7 +52,7 @@ First, let's look at this simple HTML tree:
 9. 1ms - `Recalculate Style`
 10. 85ms - `Layout`
 11. \> 1ms - `Update Layer Tree` -> `Paint` -> `Composite Layers` -> same things repeat a little
-12. ~ 2ms - `Receive Response` 2x (image and JS) -> `Recieve Data` (Image) -> `Finish Loading` (Image)
+12. ~ 2ms - `Receive Response` 2x (image and JS) -> `Receive Data` (Image) -> `Finish Loading` (Image)
 13. 3.71ms -> `Composite Layers` (make space for image)
 14. \> 1ms -> `Receive Data` (JS) -> `load` (JS) -> call stack(`Evaluate Script` -> `Compile Script`)
 15. 5ms - callstack {`Parse HTML`, {`Event Load` -> `Function Call` -> `anonymous` -> `measureCRP`}, {`Recalculate Style` and `Layout}}

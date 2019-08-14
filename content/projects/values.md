@@ -31,7 +31,7 @@ Logo... maybe just steal this:
 So that'll be in the color palette: `rgb(81, 191, 169)`
 
 - Greenish color palette I suppose
-- Coolors picked these... css variables:
+- Colors picked these... css variables:
   - --textColor: #302D30; /_ Change this as you go along, they gave black initially _/
   - --primary: #55AAAA;
   - --light: #80FF80;
