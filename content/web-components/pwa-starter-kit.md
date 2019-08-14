@@ -1,7 +1,7 @@
 ---
 title: PWA Starter Kit
 template: 'post'
-draft: true
+draft: false
 slug: '/web-component/pwa-starter-kit'
 category: 'Web Components'
 tags:

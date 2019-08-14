@@ -4,7 +4,7 @@ template: 'post'
 image: "https://developers.google.com/web/progressive-web-apps/images/pwa-lighthouse.png"
 alt: "google lighthouse logo"
 draft: false
-slug: '/posts/critical-rendering-path'
+slug: '/performance/critical-rendering-path'
 category: 'Performance'
 tags:
   - 'Critical Rendering Path'

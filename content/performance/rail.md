@@ -2,7 +2,7 @@
 title: RAIL Model
 template: 'post'
 draft: false
-slug: '/posts/rail-model'
+slug: '/performance/rail-model'
 category: 'Performance'
 tags:
   - 'RAIL'

@@ -8,7 +8,6 @@ import { useSiteMetadata } from '../hooks';
 
 const NotFoundTemplate = () => {
   const { title, subtitle } = useSiteMetadata();
-  console.log('wth?')
   return (
     <Layout title={`Not Found - ${title}`} description={subtitle}>
       <Sidebar />

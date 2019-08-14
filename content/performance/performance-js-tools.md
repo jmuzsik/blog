@@ -2,7 +2,7 @@
 title: Performance Tools
 template: 'post'
 draft: false
-slug: '/posts/performance-js-tools'
+slug: '/performance/performance-js-tools'
 category: 'Performance'
 tags:
   - 'Tools'

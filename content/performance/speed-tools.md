@@ -2,7 +2,7 @@
 title: How to think about performance tools
 template: 'post'
 draft: false
-slug: '/posts/7-14-19/'
+slug: '/performance/7-14-19/'
 category: 'Performance'
 tags:
   - 'Performance Tools'
