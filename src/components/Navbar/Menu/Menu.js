@@ -1,6 +1,9 @@
 // @flow
 import React from 'react';
 import { Link } from 'gatsby';
+import Author from '../Author';
+import Contacts from '../Contacts';
+import Copyright from '../Copyright';
 import styles from './Menu.module.scss';
 
 type Props = {
@@ -10,20 +13,30 @@ type Props = {
   }[]
 };
 
-const Menu = ({ menu }: Props) => (
+const Menu = ({ menu, author, isIndex }: Props) => (
   <nav className={styles['menu']}>
     <ul className={styles['menu__list']}>
-      {menu.map((item) => (
-        <li className={styles['menu__list-item']} key={item.path}>
-          <Link
-            to={item.path}
-            className={styles['menu__list-item-link']}
-            activeClassName={styles['menu__list-item-link--active']}
+      <Author author={author} isIndex={isIndex} />
+      <ul className={styles['menu__list-container']}>
+        {menu.map((item, i) => (
+          <li
+            className={`${styles['menu__list-container-item']} ${
+              styles[`menu__list-container-${i}`]
+            }`}
+            key={item.path}
           >
-            {item.label}
-          </Link>
-        </li>
-      ))}
+            <Link
+              to={item.path}
+              className={styles['menu__list-container-item-link']}
+              activeClassName={styles['menu__list-container-item-link--active']}
+            >
+              {item.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
+      <Contacts contacts={author.contacts} />
+      {/* <Copyright copyright={copyright} /> */}
     </ul>
   </nav>
 );

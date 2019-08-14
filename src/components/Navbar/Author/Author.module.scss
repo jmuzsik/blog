@@ -2,6 +2,8 @@
 @import '../../../assets/scss/mixins';
 
 .author {
+  grid-area: author;
+
   &__photo {
     display: inline-block;
     margin-bottom: 0;
@@ -10,10 +12,11 @@
   }
 
   &__title {
-    font-size: $typographic-base-font-size * 1.125;
-    font-weight: 600;
-    @include line-height(1.125);
-    @include margin(0.5, 0, 0.5, 0);
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1rem;
 
     &-link {
       color: $color-base;
@@ -23,12 +26,5 @@
         color: $color-base;
       }
     }
-  }
-
-  &__subtitle {
-    color: $color-gray;
-    @include line-height(1);
-    @include margin-bottom(1);
-    max-width: 200px;
   }
 }

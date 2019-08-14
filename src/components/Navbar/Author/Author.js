@@ -13,7 +13,7 @@ type Props = {
 };
 
 const Author = ({ author, isIndex }: Props) => (
-  <div className={styles['author']}>
+  <li className={styles['author']}>
     {isIndex ? (
       <h1 className={styles['author__title']}>
         <Link className={styles['author__title-link']} to="/">
@@ -27,7 +27,7 @@ const Author = ({ author, isIndex }: Props) => (
         </Link>
       </h2>
     )}
-  </div>
+  </li>
 );
 
 export default Author;

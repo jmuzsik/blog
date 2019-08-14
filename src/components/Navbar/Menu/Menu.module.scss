@@ -2,32 +2,60 @@
 @import '../../../assets/scss/mixins';
 
 .menu {
-  @include margin-bottom(1);
-
   &__list {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 100px 50px;
+    grid-template-areas:
+      'author author author author author author'
+      'container container container container container container'
+      '. . contacts contacts contacts .';
 
-    &-item {
+    &-container {
+      list-style: none;
       padding: 0;
-      margin: 10px 0;
+      margin: 0;
+      grid-area: container;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 50px 50px;
+      grid-template-areas: '. categories categories concepts concepts .' '. stuff stuff me me .';
+      align-items: center;
 
-      &-link {
-        font-size: $typographic-base-font-size;
-        color: $typographic-base-font-color;
-        font-weight: normal;
-        border: 0;
+      &-0 {
+        grid-area: categories;
+      }
+      &-1 {
+        grid-area: concepts;
+      }
+      &-2 {
+        grid-area: stuff;
+      }
+      &-3 {
+        grid-area: me;
+      }
+      &-item {
+        padding: 0;
 
-        &:hover,
-        &:focus {
-          color: $color-primary;
-          border-bottom: 1px solid $color-primary;
-        }
+        &-link {
+          font-size: $typographic-base-font-size;
+          color: $typographic-base-font-color;
+          font-weight: normal;
+          border: 0;
 
-        &--active {
-          color: $color-base;
-          border-bottom: 1px solid $color-base;
+          &:hover,
+          &:focus {
+            color: $color-primary;
+            border-bottom: 1px solid $color-primary;
+          }
+
+          &--active {
+            color: $color-base;
+            border-bottom: 1px solid $color-base;
+          }
         }
       }
     }

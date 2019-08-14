@@ -2,30 +2,13 @@
 @import '../../assets/scss/mixins';
 
 .waves {
-  background-color: #87ceeb;
-  &__radial {
-    background-image: radial-gradient(
-      circle at top right,
-      #f9d71c,
-      rgba(0, 0, 0, 0) 50%
-    );
-    width: 700px;
-    height: 700px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 0;
-  }
-  &__img {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    right: 0;
-    z-index: 0;
-  }
+  position: sticky;
+  bottom: 0;
+
   &__svg {
+    position: static;
+    bottom: 0;
+    height: 100px;
     margin-bottom: -1rem;
     background-color: #008294;
     background: linear-gradient(
@@ -33,12 +16,11 @@
       #008294 0% 50%,
       #00c5e1 90%,
       #fff 90%,
-      #87c6eb 94%,
       #87ceeb 100%
     );
   }
   &__parallax > use {
-    animation: move-forever 30s linear infinite;
+    animation: move-forever 5s linear infinite;
     &:nth-child(2) {
       animation-duration: 15s;
     }
@@ -46,15 +28,6 @@
       animation-delay: -12s;
       animation-duration: 9s;
     }
-  }
-}
-
-@keyframes animateCloud {
-  0% {
-    margin-left: -800px;
-  }
-  100% {
-    margin-left: 100%;
   }
 }
 
@@ -69,6 +42,16 @@
 
 @include breakpoint-sm {
   .waves {
+    &__parallax > use {
+      animation: move-forever 30s linear infinite;
+      &:nth-child(2) {
+        animation-duration: 15s;
+      }
+      &:nth-child(3) {
+        animation-delay: -12s;
+        animation-duration: 9s;
+      }
+    }
     &:before {
       height: 75px;
       width: 75px;

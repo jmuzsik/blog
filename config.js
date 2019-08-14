@@ -27,7 +27,7 @@ module.exports = {
     }
   ],
   author: {
-    name: 'Jerry Muzsik',
+    name: 'Jerry J. Muzsik',
     photo: '/deepdreamme.jpg',
     bio: '🤔✍️🤔',
     contacts: {

@@ -4,12 +4,6 @@ import styles from './Waves.module.scss';
 export default function Waves() {
   return (
     <div className={styles['waves']}>
-      <div className={styles['waves__radial']} />
-      <img
-        className={styles['waves__img']}
-        src="/sunset.png"
-        alt="sunset for decorative purposes"
-      />
       <svg
         className={styles['waves__svg']}
         xmlns="http://www.w3.org/2000/svg"

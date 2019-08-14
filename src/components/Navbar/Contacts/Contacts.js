@@ -11,7 +11,7 @@ type Props = {
 };
 
 const Contacts = ({ contacts }: Props) => (
-  <div className={styles['contacts']}>
+  <li className={styles['contacts']}>
     <ul className={styles['contacts__list']}>
       {Object.keys(contacts).map((name) => (
         <li className={styles['contacts__list-item']} key={name}>
@@ -26,7 +26,7 @@ const Contacts = ({ contacts }: Props) => (
         </li>
       ))}
     </ul>
-  </div>
+  </li>
 );
 
 export default Contacts;

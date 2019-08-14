@@ -2,7 +2,30 @@
 @import '../../assets/scss/mixins';
 
 .layout {
-  height: auto;
+  background-color: #87ceeb;
+  &__radial {
+    background-image: radial-gradient(
+      circle at top right,
+      #f9d71c,
+      rgba(0, 0, 0, 0) 50%
+    );
+    width: 700px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+  }
+  &__img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+  }
   &__page {
   }
 }

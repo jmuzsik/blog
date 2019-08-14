@@ -20,6 +20,12 @@ const Layout = ({ children, title, description }: Props) => (
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content={title} />
     </Helmet>
+    <div className={styles['layout__radial']} />
+      <img
+        className={styles['layout__img']}
+        src="/sunset.png"
+        alt="sunset for decorative purposes"
+      />
     {children}
   </div>
 );
