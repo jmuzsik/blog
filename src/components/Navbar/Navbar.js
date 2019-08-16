@@ -10,7 +10,7 @@ type Props = {
 
 const Navbar = ({ isIndex }: Props) => {
   const { author, copyright, menu } = useSiteMetadata();
-  console.log(menu);
+  
   return (
     <div className={styles['navbar']}>
       <div className={styles['navbar__inner']}>

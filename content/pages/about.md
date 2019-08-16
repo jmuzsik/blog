@@ -1,18 +1,39 @@
 ---
-title: 'This guy'
+title: 'Bienvenido'
 template: 'page'
+slug: '/'
 ---
 
-This site is a constant WIP. I have stuff written over a year ago. Stuff recently written, and everything in between. The writing covers a huge assortment of topics. Much of the writing is directly influenced by something I am reading or watching.
+I'm Jerry. I do lots of web stuff for work and play. I also study physics stuff at university. The main use of this website is to have a repository of writing. When the will comes to write, I write. Or I take notes, and condense them. I write about lots of stuff but mainly about science and software development.
 
-I'm Jerry. Born and raised in the Bronx. Before joining the tech world, I was a chef in NYC. Currently, I am (mainly) a web developer. I'm in school currently, pursuing a degree in Biomedical Informatics. Contemplating a more academic life. Contemplating quite a few things. This self, can it ever be completely understood? But I do love to create things with boolean switches. And I love science that touches the metaphysical. I believe that I am looking for an intersection of these two things. With some cooking mixed in.
+#### Random stuff
 
-Some facts perhaps?
+Codepens:
 
-- I read a lot of magazines...mainly Nature and Harper's, and whatever other interesting things I get my hands on. I read a lot in general.
-- Sports? I play a lot of football (the one with the ball on the feet). Surfing is fun
-- Weekend? Words, experiences, and [Go](https://senseis.xmp.net/?WhatIsGo)
-- I don't watch much stuff nowadays but if I did I'd be utilising my [Mubi](https://mubi.com/showing) subscription.
-- I tend to go on long walks.
+- [Intersection Observer example and fancy text](https://codepen.io/jmuzsik/pen/NQyrYG)
+  - Inspired by this website: https://bejamas.io/blog/jamstack-modern-web-development/
+  - And this: https://css-tricks.com/a-few-functional-uses-for-intersection-observer-to-know-when-an-element-is-in-view/
 
-And [this is my resume](https://youthful-shirley-b0ee96.netlify.com/) written in CSS/HTML.
+#### Open source i've done
+
+[Code-nasa-gov](https://github.com/nasa/code-nasa-gov/commits?author=jMuzsik&since=2019-08-01&until=2019-08-02)
+
+[jupyter.github.io](https://github.com/jupyter/jupyter.github.io/commits?author=jMuzsik&since=2019-07-01&until=2019-08-01)
+
+[Google Web Fundamentals](https://github.com/google/WebFundamentals/commits?author=jMuzsik&since=2019-07-01&until=2019-08-01)
+
+[PWA Starter Kit](https://github.com/Polymer/pwa-starter-kit/commits?author=jMuzsik&since=2019-07-01&until=2019-08-01)
+
+[React Window](https://github.com/bvaughn/react-window/commits?author=jMuzsik&since=2019-07-01&until=2019-08-01)
+
+[Find an Issue](https://github.com/jMuzsik/find-an-issue)
+
+[html5sortable](https://github.com/lukasoppermann/html5sortable/commits?author=jMuzsik)
+
+[Pypa Warehouse](https://github.com/pypa/warehouse/commits?author=jMuzsik)
+
+[Create React App](https://github.com/facebook/create-react-app/commits?author=jMuzsik)
+
+[Gizmo](https://github.com/NYTimes/gizmo/commits?author=jMuzsik)
+
+[Mocha](https://github.com/mochajs/mocha/commits?author=jMuzsik)

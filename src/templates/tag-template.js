@@ -6,7 +6,6 @@ import Navbar from '../components/Navbar';
 import Feed from '../components/Feed';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
-import Waves from '../components/Waves/Waves';
 import { useSiteMetadata } from '../hooks';
 import type { AllMarkdownRemark, PageContext } from '../types';
 
@@ -47,7 +46,6 @@ const TagTemplate = ({ data, pageContext }: Props) => {
           />
         </Page>
       </Layout>
-      <Waves />
     </React.Fragment>
   );
 };

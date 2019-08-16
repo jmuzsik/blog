@@ -10,8 +10,12 @@ module.exports = {
   postsPerPage: 6,
   menu: [
     {
-      label: 'Categories',
+      label: 'About',
       path: '/'
+    },
+    {
+      label: 'Categories',
+      path: '/categories'
     },
     {
       label: 'Concepts',
@@ -19,11 +23,7 @@ module.exports = {
     },
     {
       label: 'Stuff',
-      path: '/pages/stuff'
-    },
-    {
-      label: 'This guy',
-      path: '/pages/about'
+      path: '/stuff'
     }
   ],
   author: {

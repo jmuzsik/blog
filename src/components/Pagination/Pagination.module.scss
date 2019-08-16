@@ -49,3 +49,16 @@
     }
   }
 }
+
+@media (min-width: 1100px) {
+  .pagination {
+    &__prev {
+      margin-right: 250px;
+      text-align: right;
+    }
+    &__next {
+      margin-left: 250px;
+      text-align: left;
+    }
+  }
+}

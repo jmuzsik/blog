@@ -4,7 +4,6 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
 import Page from '../components/Page';
-import Waves from '../components/Waves/Waves';
 import { useSiteMetadata } from '../hooks';
 import type { MarkdownRemark } from '../types';
 
@@ -35,7 +34,6 @@ const PageTemplate = ({ data }: Props) => {
           <div dangerouslySetInnerHTML={{ __html: pageBody }} />
         </Page>
       </Layout>
-      <Waves />
     </React.Fragment>
   );
 };

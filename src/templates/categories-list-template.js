@@ -4,7 +4,6 @@ import Navbar from '../components/Navbar';
 import Layout from '../components/Layout';
 import Page from '../components/Page';
 import List from '../components/List';
-import Waves from '../components/Waves/Waves';
 import { useSiteMetadata, useCategoriesList } from '../hooks';
 
 /**
@@ -46,7 +45,6 @@ const CategoriesListTemplate = () => {
           <List categories={categories} />
         </Page>
       </Layout>
-      <Waves />
     </React.Fragment>
   );
 };

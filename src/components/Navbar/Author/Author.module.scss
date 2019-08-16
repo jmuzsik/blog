@@ -16,7 +16,6 @@
     line-height: 1;
     text-align: center;
     margin: 0;
-    margin-bottom: 1rem;
 
     &-link {
       color: $color-base;
@@ -25,6 +24,14 @@
       &:focus {
         color: $color-base;
       }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .author {
+    &__title {
+      font-size: 40px;
     }
   }
 }

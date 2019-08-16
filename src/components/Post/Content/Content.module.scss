@@ -14,7 +14,7 @@
     font-weight: 600;
     text-align: center;
     @include line-height(1.65);
-    @include margin-top(1);
+    padding-top: 1rem;
     @include margin-bottom(0);
   }
   // .BlogPost.jsx-288408275 .PostBody__inner > section:first-of-type > p:first-of-type::first-letter
@@ -66,7 +66,7 @@
     &__title {
       font-size: $typographic-base-font-size * 3;
       @include line-height(2.25);
-      @include margin-top(2.25);
+      padding-top: 2.25rem;
       @include margin-bottom(1.5);
     }
 

@@ -3,7 +3,6 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
 import Page from '../components/Page';
-import Waves from '../components/Waves/Waves';
 import Tags from '../components/Tags/Tags';
 import { useSiteMetadata, useTagsList } from '../hooks';
 
@@ -19,7 +18,6 @@ const TagsListTemplate = () => {
           <Tags tags={tags} />
         </Page>
       </Layout>
-      <Waves />
     </React.Fragment>
   );
 };

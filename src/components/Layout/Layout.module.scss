@@ -2,7 +2,7 @@
 @import '../../assets/scss/mixins';
 
 .layout {
-  background-color: #87ceeb;
+  background: #87ceeb;
   &__radial {
     background-image: radial-gradient(
       circle at top right,
@@ -26,6 +26,54 @@
     top: 0;
     z-index: 0;
   }
-  &__page {
+  &__container {
+    position: fixed;
+    top: -10%;
+    left: -126%;
+
+    &-cloud {
+      border-radius: 50%;
+      width: 500px;
+      height: 275px;
+
+      &-back {
+        filter: url(#filter-back);
+        box-shadow: 300px 300px 30px -20px #fff;
+      }
+    }
+  }
+}
+
+.post {
+  background-color: rgba(34, 139, 34, 0.0439);
+}
+
+@media (min-width: 425px) {
+  .layout {
+    &__container {
+      left: -85%;
+    }
+  }
+}
+@media (min-width: 576px) {
+  .layout {
+    &__container {
+      left: -47%;
+      top: -25%;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .layout {
+    &__container {
+      top: -38%;
+    }
+  }
+}
+@media (min-width: 996px) {
+  .layout {
+    &__container {
+      left: -10%;
+    }
   }
 }

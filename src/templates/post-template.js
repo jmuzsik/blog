@@ -19,7 +19,11 @@ const PostTemplate = ({ data }: Props) => {
     postDescription !== null ? postDescription : siteSubtitle;
 
   return (
-    <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription}>
+    <Layout
+      title={`${postTitle} - ${siteTitle}`}
+      description={metaDescription}
+      type="post"
+    >
       <Post post={data.markdownRemark} />
     </Layout>
   );

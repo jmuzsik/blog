@@ -2,9 +2,13 @@
 @import '../../assets/scss/mixins';
 
 .page {
-  @include margin-bottom(2);
+  padding-bottom: 50px;
+  min-height: calc(100vh - 430px);
+  padding-left: 15px;
+  padding-right: 15px;
 
   &__title {
+    text-align: center;
     font-size: $typographic-base-font-size * 2.5;
     font-weight: 600;
     @include line-height(2);
@@ -21,22 +25,28 @@
   }
 }
 
-@include breakpoint-sm {
+@media (min-width: 576px) {
   .page {
-    lost-column: 7/12;
-
-    &__title {
-      padding-left: 0;
-    }
+    padding-left: 33px;
+    padding-right: 33px;
   }
 }
 
-@include breakpoint-md {
+@media (min-width: 768px) {
   .page {
-    lost-column: 2/3;
-
-    &__inner {
-      padding-top: 2.5rem;
-    }
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (min-width: 992px) {
+  .page {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+}
+@media (min-width: 992px) {
+  .page {
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }

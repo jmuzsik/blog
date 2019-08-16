@@ -19,7 +19,6 @@ const Feed = ({ edges }: Props) => {
             fields: { slug }
           }
         } = edge;
-        console.log(slug)
         let finalDescription = description;
         if (description.length > 70) {
           finalDescription = `${description.slice(0, 70)}...`;
@@ -29,17 +28,14 @@ const Feed = ({ edges }: Props) => {
           finalTitle = `${title.slice(0, 30)}...`;
         }
         return (
-          <div className={`${styles['feed__item']} feed`} key={slug}>
+          <Link className={styles['feed__item']} to={slug} key={slug}>
             <div className={styles['feed__item-container']}>
-              <div className={styles['feed__item-time']}>{category}</div>
-              <Link className={styles['feed__item-link']} to={slug}>
-                <h2 className={styles['feed__item-title']}>{finalTitle}</h2>
-              </Link>
+              <h2 className={styles['feed__item-title']}>{finalTitle}</h2>
               <span className={styles['feed__item-description']}>
                 {finalDescription}
               </span>
             </div>
-          </div>
+          </Link>
         );
       })}
     </div>
