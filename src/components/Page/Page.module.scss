@@ -2,6 +2,9 @@
 @import '../../assets/scss/mixins';
 
 .page {
+  max-width: $layout-post-single-width;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 50px;
   min-height: calc(100vh - 430px);
   padding-left: 15px;
@@ -46,7 +49,8 @@
 }
 @media (min-width: 992px) {
   .page {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 0;
+    padding-right: 0;
+    // max-width: $layout-post-width;
   }
 }
