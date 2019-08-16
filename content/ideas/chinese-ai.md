@@ -1,7 +1,7 @@
 ---
 title: AI in China And Yang
 template: 'post'
-draft: false
+draft: true
 slug: '/ideas/chinese-ai'
 category: 'Ideas'
 tags:

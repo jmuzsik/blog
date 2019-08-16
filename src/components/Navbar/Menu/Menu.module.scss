@@ -55,6 +55,9 @@
           }
         }
         &-link {
+          &:active {
+            color: $color-base;
+          }
           font-size: $typographic-base-font-size;
           color: $typographic-base-font-color;
           font-weight: normal;
