@@ -109,3 +109,22 @@ Lets you choose quality of text over speed (or vice versa).
 #### As for performance
 
 Apply it only if you know what the maximum text length will be.
+
+### CSS invalidation
+
+```css
+.dog:
+
+.dog {
+  font-size: 99px;
+}
+
+div
+
+
+.dog {
+  font-size: 99px;
+}
+```
+
+What happens here is that the first `.cat` would be invalidated, while the `.dog` will be valid. The browser reads from top to bottom, concatenating selectors

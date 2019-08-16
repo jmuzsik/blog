@@ -42,21 +42,43 @@
         padding: 0;
         margin-bottom: 0;
 
+        &:hover,
+        &:focus {
+          a {
+            color: $color-primary;
+          }
+          // Thanks to squarespace.
+          span div {
+            transition-timing-function: cubic-bezier(0.32, 0.94, 0.6, 1);
+            transform: scaleX(1);
+            width: 100px;
+          }
+        }
         &-link {
           font-size: $typographic-base-font-size;
           color: $typographic-base-font-color;
           font-weight: normal;
           border: 0;
 
-          &:hover,
-          &:focus {
-            color: $color-primary;
-            border-bottom: 1px solid $color-primary;
-          }
-
           &--active {
             color: $color-base;
             border-bottom: 1px solid $color-base;
+          }
+        }
+        // Thanks to squarespace.
+        &-container {
+          position: relative;
+          &-border {
+            border-top-style: solid;
+            position: absolute;
+            right: 0;
+            bottom: -3px;
+            transform-origin: left;
+            transition-property: transform;
+            transition-duration: 0.5s;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.68, 0.06);
+            transform: scaleX(0);
+            border-top: 2px solid $color-primary;
           }
         }
       }
