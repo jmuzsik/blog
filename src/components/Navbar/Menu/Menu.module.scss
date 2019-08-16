@@ -42,10 +42,10 @@
         padding: 0;
         margin-bottom: 0;
 
-        &:hover,
-        &:focus {
+        &:hover:not(:active),
+        &:focus:not(:active) {
           a {
-            color: $color-primary;
+            color: $color-base;
           }
           // Thanks to squarespace.
           span div {
@@ -59,11 +59,6 @@
           color: $typographic-base-font-color;
           font-weight: normal;
           border: 0;
-
-          &--active {
-            color: $color-base;
-            border-bottom: 1px solid $color-base;
-          }
         }
         // Thanks to squarespace.
         &-container {
@@ -78,7 +73,7 @@
             transition-duration: 0.5s;
             transition-timing-function: cubic-bezier(0.4, 0, 0.68, 0.06);
             transform: scaleX(0);
-            border-top: 2px solid $color-primary;
+            border-top: 2px solid $color-base;
           }
         }
       }
