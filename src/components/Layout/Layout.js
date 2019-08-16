@@ -13,7 +13,6 @@ type Props = {
 
 const Layout = ({ children, title, description, type }: Props) => {
   const typeOfPost = type === 'post';
-  console.log(typeOfPost)
   return (
     <div className={`${styles.layout} ${typeOfPost ? styles.post : ''}`}>
       <Helmet>
