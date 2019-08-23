@@ -1,7 +1,7 @@
 ---
-title: 'Bienvenido'
+title: 'About (Kind of)'
 template: 'page'
-slug: '/'
+slug: '/about'
 ---
 
 I'm Jerry. I do lots of web stuff for work and play. I also study physics stuff at university. The main use of this website is to have a repository of writing. When the will comes to write, I write. Or I take notes, and condense them. I write about lots of stuff but mainly about science and software development.

@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import styles from './Page.module.scss';
 
 type Props = {
@@ -6,16 +6,41 @@ type Props = {
   children: React.Node
 };
 
+function createFancyText(title, init) {
+  if (init) return <h1 className={styles['page__title']}>Welcome!</h1>;
+  const welcomes = title.map(welcome => (
+    <span key={welcome} className={styles['page__title']}>
+      {welcome}
+    </span>
+  ));
+  return (
+    <div className={styles['page__fancyText']}>
+      <div className={styles['page__fancyText-sentence']}>
+        <div className={styles['page__fancyText-sentence-words']}>
+          {welcomes}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 const Page = ({ title, children }: Props) => {
   const pageRef = useRef();
+  const [fancyText, setFancyText] = useState(createFancyText(title, true));
 
   useEffect(() => {
-    // pageRef.current.scrollIntoView();
-  });
+    setTimeout(() => {
+      setFancyText(createFancyText(title, false));
+    }, 8000);
+  }, []);
   return (
     <div ref={pageRef} className={styles['page']}>
       <div className={styles['page__inner']}>
-        {title && <h1 className={styles['page__title']}>{title}</h1>}
+        {title && Array.isArray(title) ? (
+          fancyText
+        ) : (
+          <h1 className={styles['page__title']}>{title}</h1>
+        )}
         <div className={styles['page__body']}>{children}</div>
       </div>
     </div>
