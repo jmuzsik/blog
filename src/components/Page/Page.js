@@ -30,7 +30,9 @@ const Page = ({ title, children }: Props) => {
 
   useEffect(() => {
     setTimeout(() => {
-      setFancyText(createFancyText(title, false));
+      if (title && Array.isArray(title)) {
+        setFancyText(createFancyText(title, false));
+      }
     }, 8000);
   }, []);
   return (

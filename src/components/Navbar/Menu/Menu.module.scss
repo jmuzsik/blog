@@ -55,7 +55,9 @@
           }
         }
         &-link {
-          &:active {
+          &:active,
+          &:focus,
+          &:hover {
             color: $color-base;
           }
           font-size: $typographic-base-font-size;

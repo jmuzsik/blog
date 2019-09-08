@@ -11,7 +11,7 @@ module.exports = {
   menu: [
     {
       label: 'About',
-      path: '/'
+      path: '/about'
     },
     {
       label: 'Categories',

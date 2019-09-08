@@ -39,7 +39,7 @@ const Menu = ({ menu, author, isIndex }: Props) => {
       border.style.width = `${getTextWidth(text)}px`;
     });
   }, []);
-
+  
   return (
     <nav className={styles['menu']}>
       <ul className={styles['menu__list']}>
