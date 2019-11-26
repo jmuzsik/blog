@@ -1,20 +1,4 @@
----
-title: 'About (Kind of)'
-template: 'page'
-slug: '/about'
----
-
-I'm Jerry. I do lots of web stuff for work and play. I also study physics stuff at university. The main use of this website is to have a repository of writing. When the will comes to write, I write. Or I take notes, and condense them. I write about lots of stuff but mainly about science and software development.
-
-#### Random stuff
-
-Codepens:
-
-- [Intersection Observer example and fancy text](https://codepen.io/jmuzsik/pen/NQyrYG)
-  - Inspired by this website: https://bejamas.io/blog/jamstack-modern-web-development/
-  - And this: https://css-tricks.com/a-few-functional-uses-for-intersection-observer-to-know-when-an-element-is-in-view/
-
-#### Open source i've done
+### Open source i've done
 
 [Code-nasa-gov](https://github.com/nasa/code-nasa-gov/commits?author=jMuzsik&since=2019-08-01&until=2019-08-02)
 
