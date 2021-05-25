@@ -88,7 +88,7 @@
     "babel-eslint": "latest",
     "babel-jest": "latest",
     "babel-preset-gatsby": "0.2.8",
-    "browserslist": "4.6.6",
+    "browserslist": "4.16.5",
     "concurrently": "latest",
     "eslint": "6.1.0",
     "eslint-config-airbnb-base": "latest",
